@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Project Glossary</title>
+<link href="./css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="16%" class="TableHeading">Item</td>
+			<td width="8%" class="TableHeading">Type</td>
+			<td width="76%" class="TableHeading">Meaning</td>
+		</tr>
+						<tr valign="top">
+				<td width="16%" class="TableRow">BFF</td>
+				<td width="8%" class="TableRow">Tech</td>
+				<td width="76%" class="TableRow">Backend for front end</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">DMD</td>
+				<td width="8%" class="TableRow">Tech</td>
+				<td width="76%" class="TableRow">Data Model Design</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">E2E</td>
+				<td width="8%" class="TableRow">Tech</td>
+				<td width="76%" class="TableRow">End to End</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">JWT</td>
+				<td width="8%" class="TableRow">Tech</td>
+				<td width="76%" class="TableRow">JSon Web token</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">POJO</td>
+				<td width="8%" class="TableRow">Tech</td>
+				<td width="76%" class="TableRow">Plain Old Java Object</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">QoS</td>
+				<td width="8%" class="TableRow">Tech</td>
+				<td width="76%" class="TableRow">Quality of service</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">RHOCP</td>
+				<td width="8%" class="TableRow">Tech</td>
+				<td width="76%" class="TableRow"><b> </b>(redhat OpenShift container platform), the more reliable microservices containerization</td>
+			</tr>
+</table><div class="pageFooter"></div>
+ 
+</body>
+</html>
