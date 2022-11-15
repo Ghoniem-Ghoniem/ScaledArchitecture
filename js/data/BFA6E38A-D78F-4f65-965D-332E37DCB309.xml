@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.8.1:1", "", "Nodes", "EARoot/EA8/EA1/EA664.htm", "179.png", "15", "0", "", "Deployment diagram0","{DF8D9C26-536D-4121-801D-8ECBA0C9E128}");
-tocTab[tocTab.length] = new Array("0.8.1.1", "1", "Clients", "EARoot/EA8/EA1/EA1/EA672.htm", "4.png", "", "", "{2284302E-EA71-4e76-B2C2-52CA8BAAFB82}", "Package");
-tocTab[tocTab.length] = new Array("0.8.1.2", "1", "Devices", "EARoot/EA8/EA1/EA2/EA675.htm", "4.png", "", "", "{BF3B6FDA-C4C6-4df2-AA77-89BC0FA512D7}", "Package");
-tocTab[tocTab.length] = new Array("0.8.1.3", "1", "Servers", "EARoot/EA8/EA1/EA3/EA678.htm", "4.png", "", "", "{4C270F9F-34C5-4d3c-A9DF-12D04E8614A0}", "Package");
+tocTab[tocTab.length] = new Array("0.8.1:1", "", "Nodes", "EARoot/EA8/EA1/EA685.htm", "179.png", "15", "0", "", "Deployment diagram0","{DF8D9C26-536D-4121-801D-8ECBA0C9E128}");
+tocTab[tocTab.length] = new Array("0.8.1.1", "1", "Clients", "EARoot/EA8/EA1/EA1/EA693.htm", "4.png", "", "", "{2284302E-EA71-4e76-B2C2-52CA8BAAFB82}", "Package");
+tocTab[tocTab.length] = new Array("0.8.1.2", "1", "Devices", "EARoot/EA8/EA1/EA2/EA696.htm", "4.png", "", "", "{BF3B6FDA-C4C6-4df2-AA77-89BC0FA512D7}", "Package");
+tocTab[tocTab.length] = new Array("0.8.1.3", "1", "Servers", "EARoot/EA8/EA1/EA3/EA699.htm", "4.png", "", "", "{4C270F9F-34C5-4d3c-A9DF-12D04E8614A0}", "Package");
