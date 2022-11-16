@@ -6,4 +6,4 @@ tocTab[tocTab.length] = new Array("0.5", "1", "Class Model", "EARoot/EA6.htm", "
 tocTab[tocTab.length] = new Array("0.6", "1", "Dynamic View", "EARoot/EA7.htm", "30.png", "", "", "{7B400247-0E37-41e6-A9DE-73B538B58C75}", "Package");
 tocTab[tocTab.length] = new Array("0.7", "1", "Component Model", "EARoot/EA8.htm", "32.png", "", "", "{95DC7502-2F47-432e-AB63-7AA3E67DFA1B}", "Package");
 tocTab[tocTab.length] = new Array("0.8", "1", "Deployment Model", "EARoot/EA9.htm", "33.png", "", "", "{0387F12D-8A07-494a-80CF-93810E0F8717}", "Package");
-tocTab[tocTab.length] = new Array("0.9", "1", "User Interface Model", "EARoot/EA9/EA708.htm", "34.png", "", "", "{EEC00628-0C1B-46d1-A1E6-C76D347E6BC6}", "Package");
+tocTab[tocTab.length] = new Array("0.9", "1", "User Interface Model", "EARoot/EA9/EA715.htm", "34.png", "", "", "{EEC00628-0C1B-46d1-A1E6-C76D347E6BC6}", "Package");
