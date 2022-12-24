@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>02-Object Lifecycle Governance</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA651.png" usemap="#EA651" border="0" />
+
+<MAP NAME="EA651">
+<area shape="rect" coords="316,436,451,599" href="EA698.htm" target="_self">
+<area shape="rect" coords="23,630,376,793" href="EA679.htm" target="_self">
+<area shape="rect" coords="107,436,242,599" href="EA704.htm" target="_self">
+<area shape="rect" coords="111,235,246,398" href="EA777.htm" target="_self">
+<area shape="rect" coords="309,235,444,398" href="EA743.htm" target="_self">
+<area shape="rect" coords="494,235,629,398" href="EA731.htm" target="_self">
+<area shape="rect" coords="672,235,807,398" href="EA742.htm" target="_self">
+<area shape="rect" coords="669,10,804,173" href="EA708.htm" target="_self">
+<area shape="rect" coords="491,10,626,173" href="EA759.htm" target="_self">
+<area shape="rect" coords="306,10,441,173" href="EA765.htm" target="_self">
+<area shape="rect" coords="547,507,567,527" href="EA687.htm" target="_self">
+<area shape="rect" coords="114,10,249,173" href="EA771.htm" target="_self">
+<area shape="rect" coords="24,67,44,87" href="EA688.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">02-Object Lifecycle Governance : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/9/2022 12:00:00 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">11/9/2022 10:32:26 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">ghoniem.ghoniem</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{108E1886-9DF8-4a5a-9637-9478BCF57FDB}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

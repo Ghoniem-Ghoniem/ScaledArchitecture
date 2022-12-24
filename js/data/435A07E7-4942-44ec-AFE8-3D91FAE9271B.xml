@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.4.5:1", "", "Drivers/Vehicles Certificates", "EARoot/EA4/EA5/EA571.htm", "180.png", "5392", "0", "", "Use Case diagram0","{2F5FEC07-9192-4652-B918-E2E95034DC5C}");
+tocTab[tocTab.length] = new Array("0.4.5:2", "", "Permits Model", "EARoot/EA4/EA5/EA573.htm", "180.png", "5394", "0", "", "Use Case diagram0","{365EB6B6-28C0-4626-8357-F8D52EF6900C}");
+tocTab[tocTab.length] = new Array("0.4.5:3", "", "Vehicles Fines Model", "EARoot/EA4/EA5/EA575.htm", "180.png", "73", "0", "", "Use Case diagram0","{DD703FE8-DEAF-4651-B699-5871DA973498}");
+tocTab[tocTab.length] = new Array("0.4.5:4", "", "Invoices Model", "EARoot/EA4/EA5/EA577.htm", "180.png", "83", "0", "", "Use Case diagram0","{D3ECCFA7-97AB-4140-87FC-FC611494D512}");
+tocTab[tocTab.length] = new Array("0.4.5:5", "", "Fines Model", "EARoot/EA4/EA5/EA579.htm", "180.png", "75", "0", "", "Use Case diagram0","{03E53FE4-497B-46e7-B327-065249A1F70D}");
+tocTab[tocTab.length] = new Array("0.4.5:6", "", "Fine clearance", "EARoot/EA4/EA5/EA582.htm", "7.png", "E49495", "0", "", "UseCase0","{486C6F97-688D-4fe5-84A0-FA4A7C8D73D6}");
+tocTab[tocTab.length] = new Array("0.4.5:7", "", "License Fines", "EARoot/EA4/EA5/EA583.htm", "7.png", "E49915", "0", "", "UseCase0","{D7B2C13F-D425-4924-8589-8B9132504082}");
+tocTab[tocTab.length] = new Array("0.4.5:8", "", "Traffic File Fines", "EARoot/EA4/EA5/EA584.htm", "7.png", "E49916", "0", "", "UseCase0","{2D832CE9-FB0E-4244-A9FE-0F906F255AD5}");
+tocTab[tocTab.length] = new Array("0.4.5:9", "", "Validate Clearance attendance condition", "EARoot/EA4/EA5/EA585.htm", "7.png", "E49496", "0", "", "UseCase0","{025B35C0-9F59-479f-B0A4-20D2CDE0D0B5}");
+tocTab[tocTab.length] = new Array("0.4.5:10", "", "Vehicle Fines", "EARoot/EA4/EA5/EA586.htm", "7.png", "E49914", "0", "", "UseCase0","{77525902-2E07-427f-BBEA-C9A855E05D8A}");
+tocTab[tocTab.length] = new Array("0.4.5:11", "", "View All Fines", "EARoot/EA4/EA5/EA587.htm", "7.png", "E49494", "0", "", "UseCase0","{BF7BE8DA-02DB-41bc-AF75-A26011828BD9}");
