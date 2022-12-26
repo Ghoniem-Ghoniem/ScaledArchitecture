@@ -1,7 +1,7 @@
 tocTab[tocTab.length] = new Array("0.2:1", "", "00-Persona Definition", "EARoot/EA2/EA57.htm", "180.png", "60", "0", "", "Use Case diagram0","{D17689D6-BA2A-4349-AE63-F83E97DDCFAC}");
 tocTab[tocTab.length] = new Array("0.2:2", "", "Accountant", "EARoot/EA2/EA60.htm", "6.png", "E259", "0", "", "Actor0","{983CCE33-EE08-4c72-8A4F-DA10A2FEA7E6}");
-tocTab[tocTab.length] = new Array("0.2:3", "", "Anonymous User", "EARoot/EA2/EA61.htm", "6.png", "E352", "0", "", "Actor0","{22706EB2-39C5-42c5-B1F6-26E2BB86864F}");
-tocTab[tocTab.length] = new Array("0.2:4", "", "Anonymous User", "EARoot/EA2/EA62.htm", "6.png", "E347", "0", "", "Actor0","{5C89BA7D-4D96-4115-9C18-78614F8224FF}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "Anonymous User", "EARoot/EA2/EA61.htm", "6.png", "E347", "0", "", "Actor0","{5C89BA7D-4D96-4115-9C18-78614F8224FF}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "Anonymous User", "EARoot/EA2/EA62.htm", "6.png", "E352", "0", "", "Actor0","{22706EB2-39C5-42c5-B1F6-26E2BB86864F}");
 tocTab[tocTab.length] = new Array("0.2:5", "", "Clinic Admin", "EARoot/EA2/EA63.htm", "6.png", "E252", "0", "", "Actor0","{A05FCDC1-0E4F-4dea-8FB1-8A9116B1EB65}");
 tocTab[tocTab.length] = new Array("0.2:6", "", "Company ", "EARoot/EA2/EA64.htm", "6.png", "E49917", "0", "", "Actor0","{C705A184-D27F-4083-B91D-A6B687F49B60}");
 tocTab[tocTab.length] = new Array("0.2:7", "", "Customer", "EARoot/EA2/EA65.htm", "6.png", "E248", "0", "", "Actor0","{AC3AC6BF-E356-43fd-BA72-4001EF365788}");
