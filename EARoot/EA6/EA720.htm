@@ -2,12 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Configurable Views
-	Startup View (Pin/Unpin)
-	Default List Mode (Empty/Full)
-	Favorites
-	Customized Views
-</title>
+<title>Dynamic View::Analysis Checklist</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -39,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Configurable Views<br />	Startup View (Pin/Unpin)<br />	Default List Mode (Empty/Full)<br />	Favorites<br />	Customized Views<br />", " : "))</script>  : Public   Activity</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Analysis Checklist", " : "))</script>  : Public  &lt;&lt;Checklist&gt;&gt; Checklist</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">11/9/2022 10:14:14 AM</td>
+			<td width="85%" class="ObjectDetailsValue">12/17/2022 7:43:55 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">11/9/2022 10:29:30 AM</td>
+			<td class="ObjectDetailsValue">12/18/2022 10:07:33 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -56,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">Yousif Ennwa</td>
+			<td class="ObjectDetailsValue">ghoniem.ghoniem</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -92,93 +87,49 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{FD203CD8-8175-42eb-AD9F-CF0840B44382}</td>
+			<td class="ObjectDetailsValue">{FA7363E2-DF4B-46a9-8AD5-12D3A4A97E84}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA658.htm">02-Object Lifecycle Governance</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA10/EA1161.htm">Audit Checklists</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA714.htm">Business Rules Model
-	Objects list metadata
-	Attributes metadata
-	Custom filters
-	Predefined filters
-	AnalyticA objects
-	Customization Enabling
-	UX Representation
-</a><br />
-						Activity &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow250" onclick="parent.toggleDiv('detailsDIVLinkFlow250', 'DetailsImageLinkFlow250')" />Details:
-							<div id="detailsDIVLinkFlow250" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA794.htm">Supportive Tools
-	Import Data
-	Export data
-</a><br />
-						Activity &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow251" onclick="parent.toggleDiv('detailsDIVLinkFlow251', 'DetailsImageLinkFlow251')" />Details:
-							<div id="detailsDIVLinkFlow251" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="CustomPropertiesTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
-				</tr>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">Checklist</td>
+				<td width="50%" class="TableRow" valign="top"><Checklist>
+	<Item Text="Persona characteristics and values updates" Checked="False"/>
+	<Item Text="Inherit Personas from main persona model, never create new" Checked="False"/>
+	<Item Text="Module/journey lifecycle using activity diagram" Checked="False"/>
+	<Item Text="Map activity diagram to usecases" Checked="False"/>
+	<Item Text="Separate model for each correlated group of usecases" Checked="False"/>
+	<Item Text="usecase model should include links in activity diagram, and statecharts" Checked="False"/>
+	<Item Text="Separate Model for Configuration" Checked="False"/>
+	<Item Text="Requirements/Service design by the customer" Checked="False"/>
+	<Item Text="All business rules are recorded as Pre-conditions/in-variants for use cases" Checked="False"/>
+</Checklist></td>
+			</tr>	
 			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario229" onclick="parent.toggleDiv('detailsDIVScenario229','DetailsImageScenario229')" />Details:
+						<div id="detailsDIVScenario229" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
 			</tr>
-
-
-			</table>
-		</div>	</div>
+	</table>
+</div>	</div>
 <div class="pageFooter"></div>
  
 </body>
