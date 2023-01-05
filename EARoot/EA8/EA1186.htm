@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Sync Model</title>
+<title>Deployment Model::Security Module</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Sync Model", " : "))</script>  : Public   Component</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Security Module", " : "))</script>  : Public   Component</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">12/21/2022 8:28:45 PM</td>
+			<td width="85%" class="ObjectDetailsValue">11/16/2022 3:25:10 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/4/2023 10:11:44 PM</td>
+			<td class="ObjectDetailsValue">11/19/2022 4:10:52 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,182 +87,18 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{7650F59B-67F8-4987-8D70-28AC7AB427D5}</td>
+			<td class="ObjectDetailsValue">{FFBCD8AE-E1D5-4f6a-A38E-B36AC1EE55CD}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1059.htm">Appplication Server</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1062.htm">Appplication Server</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('Requirements');" id="RequirementsTitle">Requirements</li>
-			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
-			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="RequirementsTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="60%" class="TableHeading">Requirement</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Status</td>
-					<td width="10%" class="TableHeading">Difficulty</td>
-					<td width="10%" class="TableHeading">Priority</td>
-					<td width="10%" class="TableHeading">Stability</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">01- Data Sync Model</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement645" onclick="parent.toggleDiv('detailsDIVRequirement645','DetailsImageRequirement645')" />Details:
-							<div id="detailsDIVRequirement645" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I need to assure the parallel run of both applications E-Traffic and DX and maintain the data synchronization, so we can perform transactions from both solutions, synchronization is required due to:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Parallel Run&lt;/b&gt;: both applications are up and running at the same time &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;Lock User Products&lt;/b&gt;: due to parallel running, we need to guarantee that both systems block each other if the system is interfering with the same product at the same time &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/p&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">02- Realtime update</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement646" onclick="parent.toggleDiv('detailsDIVRequirement646','DetailsImageRequirement646')" />Details:
-							<div id="detailsDIVRequirement646" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I have to assure a real-time update for running transactions, so I can have a smooth journeys/transactions with no delay.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;We chose &lt;b&gt;Apache Kafka&lt;/b&gt; as its have a plenty of capabilities that will assure the fulfillment of our this requirement, such as&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Real-time Data Processing&lt;/b&gt;: Kafka process data/messages in pipelines consisting of multiple stages/phases, where message input is consumed from Kafka topics and then aggregated, transformed into new topics for further consumption, or follow consumer login to persist the message. &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;Data Persistency&lt;/b&gt;: the data/messages transferred between two solutions can be persisted for 7 days &lt;i&gt;&lt;u&gt;(default duration and can be changed&lt;/u&gt;&lt;/i&gt;) on (n) replicas (default is 3 replicas).&#160;&#160; &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;Scalable&lt;/b&gt;: we can scale the number of partitions to handle the load of messages.&#160;&#160; &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;Handle Stream Processing&lt;/b&gt;: we can send batch of messages which will lead to push more messages in less time.&#160;&#160; &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/p&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">03-Seamless integration, regardless the business/datamodels variance</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement647" onclick="parent.toggleDiv('detailsDIVRequirement647','DetailsImageRequirement647')" />Details:
-							<div id="detailsDIVRequirement647" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I need to guarantee data consistency between both E-Traffic and DX Applications and assure data synchronization between both applications with real-time updates although the variance between both data models, so I can run both applications together till full sunset of the legacy E-Traffic Application.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;In that solution, we used &lt;b&gt;Apache Kafka&lt;/b&gt; as (&lt;i&gt;&lt;u&gt;a message broker&lt;/u&gt;&lt;/i&gt;) to handle the communication between both applications bi-directional, so each communication channel has two topics to handle both direction of synchronization, sync topic, and callback topic &lt;i&gt;&lt;u&gt;(all topics for synchronization were mentioned in KAFKA component model&lt;/u&gt;&lt;/i&gt;), in comparison to &lt;b&gt;ETL&lt;/b&gt; we chose this approached due to different data model between both applications&lt;br /&gt;&lt;/p&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">04- Retrial Model</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement648" onclick="parent.toggleDiv('detailsDIVRequirement648','DetailsImageRequirement648')" />Details:
-							<div id="detailsDIVRequirement648" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a robust re-trial mechanism for failed sync transactions/events, we build a configurable re-trial engine with initial (5 trials).&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;We propose to re-initiate the sync state of the failed transaction to the last stable state and increase the trials by 1.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Then we will build a monitoring screens to alert the exceeded maximum trials with failure reason.&lt;br /&gt;&lt;/p&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">05- Logging Model</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement649" onclick="parent.toggleDiv('detailsDIVRequirement649','DetailsImageRequirement649')" />Details:
-							<div id="detailsDIVRequirement649" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a dynamic logging mechanism for all sync states/actions, we build logging engine grouped by product to assure the max efficiency in retrieving the sync history. &lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;We proposed to log all action occurred on sync record along with business key such as (Emirate Id, Chassis Number) to facilitate the inquiry for these sync events.&#160;&#160; &lt;br /&gt;&lt;/p&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">06- Monitoring Model</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement650" onclick="parent.toggleDiv('detailsDIVRequirement650','DetailsImageRequirement650')" />Details:
-							<div id="detailsDIVRequirement650" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide front-end application for monitoring the sync transactions and visualize the trends of daily processes.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This model will be grouped&#160; by products and time interval as mandatory attributes, then we can search more specific by the pre-defined business keys in each product.&lt;br /&gt;&lt;/p&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="ConstraintsTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-			  	<tr>
-					<td width="80%" class="TableHeading">Constraint</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Status</td>
-				</tr>
-				<tr>
-					<td width="80%" class="TableRow">01-Realtime update</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints651" onclick="parent.toggleDiv('detailsDIVConstraints651','DetailsImageConstraints651')" />Details:
-							<div id="detailsDIVConstraints651" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Kindly visit requirements section for detailed implementation.</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="80%" class="TableRow">02-Different database/schema structure</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints652" onclick="parent.toggleDiv('detailsDIVConstraints652','DetailsImageConstraints652')" />Details:
-							<div id="detailsDIVConstraints652" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Kindly visit requirements section for detailed implementation.</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -276,26 +112,7 @@ function nameClassifier(name, separator)
 
 
 			</table>
-		</div>		<div class="ItemBody" id="LinksTable">
-			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="30%" class="TableHeading">Object</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Connection</td>
-					<td width="10%" class="TableHeading">Direction</td>
-					<td width="40%" class="TableHeading">Notes</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA1176.htm">KAFKA (EDA)</a></td>
-					<td width="10%" class="TableRow" valign="top">Component</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-
-			</table>
-		</div>
-	</div>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

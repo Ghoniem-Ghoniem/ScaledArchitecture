@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Synched</title>
+<title>Sync Scema</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Synched", " : "))</script>  : Public   State</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Sync Scema", " : "))</script>  : Public   Sequence</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">12/15/2022 3:19:04 PM</td>
+			<td width="85%" class="ObjectDetailsValue">11/22/2022 11:23:41 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">12/15/2022 4:53:03 PM</td>
+			<td class="ObjectDetailsValue">11/22/2022 11:25:45 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,65 +87,147 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{645E7E8F-33FA-416e-973E-78FA84FB61BD}</td>
+			<td class="ObjectDetailsValue">{AE97DE69-AD18-4a30-9AA6-0F8B4899A6AE}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue"><a href="EA834.htm">Data Synch Model</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
+		<div class="ItemBody" id="MessagesToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA923.htm">Final</a><br />
-						StateNode &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top"><a href="EA985.htm">Sync Scema</a></td>
+					<td width="50%" class="TableRow" valign="top">Check Sync Readiness</td>
 				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow553" onclick="parent.toggleDiv('detailsDIVLinkFlow553', 'DetailsImageLinkFlow553')" />Details:
-							<div id="detailsDIVLinkFlow553" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage540" onclick="parent.toggleDiv('detailsDIVMessage540', 'DetailsImageMessage540')" />Details:
+							<div id="detailsDIVMessage540" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA985.htm">Sync Scema</a></td>
+					<td width="50%" class="TableRow" valign="top">Log Failed Transactions for Sync</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage541" onclick="parent.toggleDiv('detailsDIVMessage541', 'DetailsImageMessage541')" />Details:
+							<div id="detailsDIVMessage541" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA981.htm">Sync Application</a></td>
+					<td width="50%" class="TableRow" valign="top">Relatime Sync from triggers</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage542" onclick="parent.toggleDiv('detailsDIVMessage542', 'DetailsImageMessage542')" />Details:
+							<div id="detailsDIVMessage542" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA981.htm">Sync Application</a></td>
+					<td width="50%" class="TableRow" valign="top">Sync Failed Transactions from log</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage543" onclick="parent.toggleDiv('detailsDIVMessage543', 'DetailsImageMessage543')" />Details:
+							<div id="detailsDIVMessage543" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
 			</table>
 		</div>
-		<div class="ItemBody" id="FlowFromTable">
+		<div class="ItemBody" id="MessagesFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA983.htm">Sync To Destination (KAFKA)</a><br />
-						State &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top"><a href="EA982.htm">Sync Manager</a></td>
+					<td width="50%" class="TableRow" valign="top">Insert Sync Records</td>
 				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow554" onclick="parent.toggleDiv('detailsDIVLinkFlow554', 'DetailsImageLinkFlow554')" />Details:
-							<div id="detailsDIVLinkFlow554" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage544" onclick="parent.toggleDiv('detailsDIVMessage544', 'DetailsImageMessage544')" />Details:
+							<div id="detailsDIVMessage544" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA985.htm">Sync Scema</a></td>
+					<td width="50%" class="TableRow" valign="top">Check Sync Readiness</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage545" onclick="parent.toggleDiv('detailsDIVMessage545', 'DetailsImageMessage545')" />Details:
+							<div id="detailsDIVMessage545" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA985.htm">Sync Scema</a></td>
+					<td width="50%" class="TableRow" valign="top">Log Failed Transactions for Sync</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage546" onclick="parent.toggleDiv('detailsDIVMessage546', 'DetailsImageMessage546')" />Details:
+							<div id="detailsDIVMessage546" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA946.htm">Micro-Service Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">Remove from Log</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage547" onclick="parent.toggleDiv('detailsDIVMessage547', 'DetailsImageMessage547')" />Details:
+							<div id="detailsDIVMessage547" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
 			</table>
 		</div>
 	</div>
