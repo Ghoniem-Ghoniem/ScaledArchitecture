@@ -1,3 +1,1 @@
-tocTab[tocTab.length] = new Array("0.5.1:1", "", "03-Learning File", "EARoot/EA5/EA1/EA895.htm", "175.png", "5458", "0", "", "Logical diagram0","{143E07F5-531C-48d9-B015-AEAE55FB47B5}");
-tocTab[tocTab.length] = new Array("0.5.4", "1", "Domain Model", "EARoot/EA5/EA4/EA905.htm", "4.png", "", "", "{DDAA8CF6-5206-4042-98AD-66884E2171DF}", "Package");
-tocTab[tocTab.length] = new Array("0.5.5", "1", "Class Model", "EARoot/EA5/EA5/EA918.htm", "4.png", "", "", "{8C9B4F79-1C9D-4f6c-AF95-1B4A2197386E}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1:1", "", "03-Learning File", "EARoot/EA5/EA1/EA1050.htm", "175.png", "5458", "0", "", "Logical diagram0","{143E07F5-531C-48d9-B015-AEAE55FB47B5}");
