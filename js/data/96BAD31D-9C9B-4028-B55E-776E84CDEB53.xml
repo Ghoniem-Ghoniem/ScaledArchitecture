@@ -272,4 +272,4 @@ tocTab[tocTab.length] = new Array("0.3.5", "1", "04-GENCOM", "EARoot/EA3/EA5/EA6
 tocTab[tocTab.length] = new Array("0.3.6", "1", "05-INFROCOM", "EARoot/EA3/EA6/EA692.htm", "4.png", "", "", "{F6A7A41E-57F9-4878-972C-E62DD3F510FF}", "Package");
 tocTab[tocTab.length] = new Array("0.3.7", "1", "04-CLS", "EARoot/EA3/EA7/EA726.htm", "4.png", "", "", "{1B7642D7-9B98-464c-9075-24FD6A49E7DD}", "Package");
 tocTab[tocTab.length] = new Array("0.3.8", "1", "06-Integration Services", "EARoot/EA3/EA8/EA762.htm", "4.png", "", "", "{3C6E3505-E08F-4d98-B2D7-0164C785E2EF}", "Package");
-tocTab[tocTab.length] = new Array("0.3.9", "1", "Dynamic View", "EARoot/EA3/EA9/EA993.htm", "4.png", "", "", "{FE4536D9-EF1A-442e-A6EF-B2790A188590}", "Package");
+tocTab[tocTab.length] = new Array("0.3.9", "1", "Dynamic View", "EARoot/EA3/EA9/EA994.htm", "4.png", "", "", "{FE4536D9-EF1A-442e-A6EF-B2790A188590}", "Package");

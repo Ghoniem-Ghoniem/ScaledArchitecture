@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Sync Manager</title>
+<title>Sync Application</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Sync Manager", " : "))</script>  : Public   Actor</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Sync Application", " : "))</script>  : Public   Sequence</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">11/22/2022 11:23:37 AM</td>
+			<td width="85%" class="ObjectDetailsValue">11/22/2022 11:23:44 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">12/24/2022 8:14:07 AM</td>
+			<td class="ObjectDetailsValue">1/5/2023 12:24:41 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{B32BAD5D-37C0-41d3-808F-ABE3121D34F8}</td>
+			<td class="ObjectDetailsValue">{5C4CFA28-03AF-4638-878B-DC0D475FE8D9}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1129.htm">Data Synch Model</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1130.htm">Data Synch Model</a></td>
 		</tr>
 	</table>
 	
@@ -107,13 +107,13 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA1284.htm">Sync Scema</a></td>
-					<td width="50%" class="TableRow" valign="top">Insert Sync Records</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1281.htm">Sync Application</a></td>
+					<td width="50%" class="TableRow" valign="top">Fetch Synched Data By IDs</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage570" onclick="parent.toggleDiv('detailsDIVMessage570', 'DetailsImageMessage570')" />Details:
-							<div id="detailsDIVMessage570" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage563" onclick="parent.toggleDiv('detailsDIVMessage563', 'DetailsImageMessage563')" />Details:
+							<div id="detailsDIVMessage563" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -121,13 +121,27 @@ function nameClassifier(name, separator)
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA1282.htm">Sync Metadata</a></td>
-					<td width="50%" class="TableRow" valign="top">Load Object Metamodel</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1281.htm">Sync Application</a></td>
+					<td width="50%" class="TableRow" valign="top">Verify Sync Readiness</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage571" onclick="parent.toggleDiv('detailsDIVMessage571', 'DetailsImageMessage571')" />Details:
-							<div id="detailsDIVMessage571" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage564" onclick="parent.toggleDiv('detailsDIVMessage564', 'DetailsImageMessage564')" />Details:
+							<div id="detailsDIVMessage564" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1237.htm">KAFKA</a></td>
+					<td width="50%" class="TableRow" valign="top">Publish Sync Data to KAFKA</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage565" onclick="parent.toggleDiv('detailsDIVMessage565', 'DetailsImageMessage565')" />Details:
+							<div id="detailsDIVMessage565" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -144,13 +158,55 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA1282.htm">Sync Metadata</a></td>
-					<td width="50%" class="TableRow" valign="top">MetaModel</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1285.htm">Sync Scema</a></td>
+					<td width="50%" class="TableRow" valign="top">Relatime Sync from triggers</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage572" onclick="parent.toggleDiv('detailsDIVMessage572', 'DetailsImageMessage572')" />Details:
-							<div id="detailsDIVMessage572" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage566" onclick="parent.toggleDiv('detailsDIVMessage566', 'DetailsImageMessage566')" />Details:
+							<div id="detailsDIVMessage566" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1285.htm">Sync Scema</a></td>
+					<td width="50%" class="TableRow" valign="top">Sync Failed Transactions from log</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage567" onclick="parent.toggleDiv('detailsDIVMessage567', 'DetailsImageMessage567')" />Details:
+							<div id="detailsDIVMessage567" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1281.htm">Sync Application</a></td>
+					<td width="50%" class="TableRow" valign="top">Fetch Synched Data By IDs</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage568" onclick="parent.toggleDiv('detailsDIVMessage568', 'DetailsImageMessage568')" />Details:
+							<div id="detailsDIVMessage568" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1281.htm">Sync Application</a></td>
+					<td width="50%" class="TableRow" valign="top">Verify Sync Readiness</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage569" onclick="parent.toggleDiv('detailsDIVMessage569', 'DetailsImageMessage569')" />Details:
+							<div id="detailsDIVMessage569" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>

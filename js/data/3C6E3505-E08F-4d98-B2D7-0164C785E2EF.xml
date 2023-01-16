@@ -4,4 +4,4 @@ tocTab[tocTab.length] = new Array("0.3.8:3", "", "Service Integration", "EARoot/
 tocTab[tocTab.length] = new Array("0.3.8:4", "", "Use Case Model", "EARoot/EA3/EA8/EA760.htm", "180.png", "5425", "0", "", "Use Case diagram0","{E4B53C36-EBD1-4743-9927-6A3CB2E22C03}");
 tocTab[tocTab.length] = new Array("0.3.8.1", "1", "Actors", "EARoot/EA3/EA8/EA1/EA779.htm", "4.png", "", "", "{C58009DA-6048-4fee-A2E0-6454CC1A0925}", "Package");
 tocTab[tocTab.length] = new Array("0.3.8.2", "1", "E-Traffic", "EARoot/EA3/EA8/EA2/EA783.htm", "4.png", "", "", "{7100A5AD-7A8A-48ff-B8A8-EC2AD94EFA64}", "Package");
-tocTab[tocTab.length] = new Array("0.3.8.3", "1", "Primary Use Cases", "EARoot/EA3/EA8/EA3/EA973.htm", "4.png", "", "", "{8B196B34-4573-440b-9CEB-9EA858B87715}", "Package");
+tocTab[tocTab.length] = new Array("0.3.8.3", "1", "Primary Use Cases", "EARoot/EA3/EA8/EA3/EA974.htm", "4.png", "", "", "{8B196B34-4573-440b-9CEB-9EA858B87715}", "Package");
