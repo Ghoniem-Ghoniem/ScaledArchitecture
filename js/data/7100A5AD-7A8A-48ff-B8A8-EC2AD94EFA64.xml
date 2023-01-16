@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.3.8.2:1", "", "E-Traffic Integrations", "EARoot/EA3/EA8/EA2/EA764.htm", "178.png", "5442", "0", "", "Component diagram0","{AFD3D77C-C1B8-4136-9748-5E812A7C1F21}");
-tocTab[tocTab.length] = new Array("0.3.8.2.1", "1", "Database Integrations", "EARoot/EA3/EA8/EA2/EA1/EA774.htm", "4.png", "", "", "{218E7B6A-AE60-45c4-BA46-7D5555FD50D6}", "Package");
-tocTab[tocTab.length] = new Array("0.3.8.2.2", "1", "Services Integrations", "EARoot/EA3/EA8/EA2/EA2/EA777.htm", "4.png", "", "", "{F237495F-AD19-4467-867D-E8F790A7FA3A}", "Package");
+tocTab[tocTab.length] = new Array("0.3.8.2:1", "", "E-Traffic Integrations", "EARoot/EA3/EA8/EA2/EA781.htm", "178.png", "5442", "0", "", "Component diagram0","{AFD3D77C-C1B8-4136-9748-5E812A7C1F21}");
+tocTab[tocTab.length] = new Array("0.3.8.2.1", "1", "Database Integrations", "EARoot/EA3/EA8/EA2/EA1/EA791.htm", "4.png", "", "", "{218E7B6A-AE60-45c4-BA46-7D5555FD50D6}", "Package");
+tocTab[tocTab.length] = new Array("0.3.8.2.2", "1", "Services Integrations", "EARoot/EA3/EA8/EA2/EA2/EA794.htm", "4.png", "", "", "{F237495F-AD19-4467-867D-E8F790A7FA3A}", "Package");
