@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Logging Module</title>
+<title>HazelCast Caching</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Logging Module", " : "))</script>  : Public   Component</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("HazelCast Caching", " : "))</script>  : Public   Component</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">9/24/2021 1:15:22 AM</td>
+			<td width="85%" class="ObjectDetailsValue">10/18/2021 8:48:16 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/19/2023 11:08:21 AM</td>
+			<td class="ObjectDetailsValue">12/26/2022 8:58:01 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,15 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{120E6B44-ECDA-4dc0-8F6F-808103480961}</td>
+			<td class="ObjectDetailsValue">{29B2E866-69C5-4fd3-BB2A-616A838BACD0}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
 			<td class="ObjectDetailsValue"><a href="EA1413.htm">Appplication Server</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">As Solution Architect,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to enable logging infrastructure for our application to trace any unusual incident or error present in the project and to understand what&#39;s going on with the application.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Enabling logging engine can be designed in two different approaches:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ol&gt;&lt;li&gt;Each micro-service can handle it&#39;s logs, which will apply the logs segregation, in this case, the logs will be scattered in different DB Schemas and it&#39;s very hard to collect the details in one view. &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;A dedicated Logging micro-service that can handle all the logs for all other micro-services, in that case we can easily build a front-end application over this micro-service to read, monitor, and visualize the actions and errors that occurred in this system&#160;&#160; &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;From above, we will go with the second approach as it&#39;s clearly will fulfill our requirement &lt;br /&gt;&lt;/p&gt;</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Requirements');" id="RequirementsTitle">Requirements</li>
@@ -112,7 +111,7 @@ function nameClassifier(name, separator)
 					<td width="10%" class="TableHeading">Stability</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">01- Dedicated DB Schema</td>
+					<td width="60%" class="TableRow">01-Performance Improvement</td>
 					<td width="10%" class="TableRow">Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -121,62 +120,9 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement710" onclick="parent.toggleDiv('detailsDIVRequirement710','DetailsImageRequirement710')" />Details:
-							<div id="detailsDIVRequirement710" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">02- Centrelized Kafka Topics to handle all applications logs</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement711" onclick="parent.toggleDiv('detailsDIVRequirement711','DetailsImageRequirement711')" />Details:
-							<div id="detailsDIVRequirement711" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Will expose multiple Kafka topics with different consumers to handle the logs Asynchronously without block the transaction</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">03- Build segregated log entities for each module.</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement712" onclick="parent.toggleDiv('detailsDIVRequirement712','DetailsImageRequirement712')" />Details:
-							<div id="detailsDIVRequirement712" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Each Module will have a dedicated log entity to facilitate the search across DX system&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;UMS&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;VLS&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;DLS&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;etc...&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/p&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">04- Build front-end application on top of logging micro-service</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement713" onclick="parent.toggleDiv('detailsDIVRequirement713','DetailsImageRequirement713')" />Details:
-							<div id="detailsDIVRequirement713" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">This will facilitate the support team to check system logs without the need of development team, also we can visualize the logs by it&#39;s classification&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;ERROR&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;DEBUG&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;WARNING&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;INFO&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/p&gt;</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement708" onclick="parent.toggleDiv('detailsDIVRequirement708','DetailsImageRequirement708')" />Details:
+							<div id="detailsDIVRequirement708" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As Software Provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to enable caching at front end and backend levels, so that I can improve the solution performance and response time.&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
