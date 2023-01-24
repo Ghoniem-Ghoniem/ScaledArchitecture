@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Microservice</title>
+<title>Kafka</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Microservice", " : "))</script>  : Public   Sequence</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Kafka", " : "))</script>  : Public   Sequence</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">1/5/2023 12:37:04 AM</td>
+			<td width="85%" class="ObjectDetailsValue">1/5/2023 12:29:26 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/5/2023 12:37:13 AM</td>
+			<td class="ObjectDetailsValue">1/5/2023 12:29:32 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{F3D46EF7-0285-473f-85B5-E77410D524F5}</td>
+			<td class="ObjectDetailsValue">{E3102F08-C00F-46df-9AD2-D46A8CA5DE9B}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1017.htm">Sync Sequence Model</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1019.htm">Sync Sequence Model</a></td>
 		</tr>
 	</table>
 	
@@ -107,13 +107,13 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA1043.htm">Kafka</a></td>
-					<td width="50%" class="TableRow" valign="top">Producer : Push callback message </td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1047.htm">Microservice</a></td>
+					<td width="50%" class="TableRow" valign="top">Consumer : Consume Message from Kafka Topic</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage199" onclick="parent.toggleDiv('detailsDIVMessage199', 'DetailsImageMessage199')" />Details:
-							<div id="detailsDIVMessage199" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage190" onclick="parent.toggleDiv('detailsDIVMessage190', 'DetailsImageMessage190')" />Details:
+							<div id="detailsDIVMessage190" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -121,13 +121,27 @@ function nameClassifier(name, separator)
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA1046.htm">Microservice Schema</a></td>
-					<td width="50%" class="TableRow" valign="top">Add/Update Product </td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1056.htm">Sync Application</a></td>
+					<td width="50%" class="TableRow" valign="top">Consumer : Consume callback message</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage200" onclick="parent.toggleDiv('detailsDIVMessage200', 'DetailsImageMessage200')" />Details:
-							<div id="detailsDIVMessage200" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage191" onclick="parent.toggleDiv('detailsDIVMessage191', 'DetailsImageMessage191')" />Details:
+							<div id="detailsDIVMessage191" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1059.htm">Sync Logger Application</a></td>
+					<td width="50%" class="TableRow" valign="top">Log Sync Action (Synced)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage192" onclick="parent.toggleDiv('detailsDIVMessage192', 'DetailsImageMessage192')" />Details:
+							<div id="detailsDIVMessage192" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -144,13 +158,13 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA1043.htm">Kafka</a></td>
-					<td width="50%" class="TableRow" valign="top">Consumer : Consume Message from Kafka Topic</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1056.htm">Sync Application</a></td>
+					<td width="50%" class="TableRow" valign="top">Producer : Push Sync Message into Kafka Topic</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage201" onclick="parent.toggleDiv('detailsDIVMessage201', 'DetailsImageMessage201')" />Details:
-							<div id="detailsDIVMessage201" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage193" onclick="parent.toggleDiv('detailsDIVMessage193', 'DetailsImageMessage193')" />Details:
+							<div id="detailsDIVMessage193" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -158,13 +172,13 @@ function nameClassifier(name, separator)
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA1046.htm">Microservice Schema</a></td>
-					<td width="50%" class="TableRow" valign="top">Identify Operation Status</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA1047.htm">Microservice</a></td>
+					<td width="50%" class="TableRow" valign="top">Producer : Push callback message </td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage202" onclick="parent.toggleDiv('detailsDIVMessage202', 'DetailsImageMessage202')" />Details:
-							<div id="detailsDIVMessage202" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage194" onclick="parent.toggleDiv('detailsDIVMessage194', 'DetailsImageMessage194')" />Details:
+							<div id="detailsDIVMessage194" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>

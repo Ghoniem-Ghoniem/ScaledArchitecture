@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>API Gateway</title>
+<title>Analysis Checklist</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("API Gateway", " : "))</script>  : Public   Sequence</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Analysis Checklist", " : "))</script>  : Public  &lt;&lt;Checklist&gt;&gt; Checklist</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">10/26/2021 9:34:14 PM</td>
+			<td width="85%" class="ObjectDetailsValue">12/17/2022 7:43:55 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">10/26/2021 9:34:24 PM</td>
+			<td class="ObjectDetailsValue">12/18/2022 10:07:33 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">Yousif Ennwa</td>
+			<td class="ObjectDetailsValue">ghoniem.ghoniem</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,66 +87,49 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{3640F80E-75EB-46c1-B468-32B4EE2B224D}</td>
+			<td class="ObjectDetailsValue">{FA7363E2-DF4B-46a9-8AD5-12D3A4A97E84}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1172.htm">Generic Business Flow: Sequence Diagram</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA10/EA1946.htm">Audit Checklists</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
-			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA1280.htm">Micro-Service Layer</a></td>
-					<td width="50%" class="TableRow" valign="top">Call Service Layer</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage381" onclick="parent.toggleDiv('detailsDIVMessage381', 'DetailsImageMessage381')" />Details:
-							<div id="detailsDIVMessage381" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">Checklist</td>
+				<td width="50%" class="TableRow" valign="top"><Checklist>
+	<Item Text="Persona characteristics and values updates" Checked="False"/>
+	<Item Text="Inherit Personas from main persona model, never create new" Checked="False"/>
+	<Item Text="Module/journey lifecycle using activity diagram" Checked="False"/>
+	<Item Text="Map activity diagram to usecases" Checked="False"/>
+	<Item Text="Separate model for each correlated group of usecases" Checked="False"/>
+	<Item Text="usecase model should include links in activity diagram, and statecharts" Checked="False"/>
+	<Item Text="Separate Model for Configuration" Checked="False"/>
+	<Item Text="Requirements/Service design by the customer" Checked="False"/>
+	<Item Text="All business rules are recorded as Pre-conditions/in-variants for use cases" Checked="False"/>
+</Checklist></td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario378" onclick="parent.toggleDiv('detailsDIVScenario378','DetailsImageScenario378')" />Details:
+						<div id="detailsDIVScenario378" class="DetailsDiv" >
+						&nbsp;
 						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="MessagesFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA1278.htm">Metadata Layer</a></td>
-					<td width="50%" class="TableRow" valign="top">Call Service Layer</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage382" onclick="parent.toggleDiv('detailsDIVMessage382', 'DetailsImageMessage382')" />Details:
-							<div id="detailsDIVMessage382" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-	</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>	</div>
 <div class="pageFooter"></div>
  
 </body>
