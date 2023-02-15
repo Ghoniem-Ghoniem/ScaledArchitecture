@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1:1", "", "11- Configuration", "EARoot/EA1/EA399.htm", "180.png", "5529", "0", "", "Use Case diagram0","{449457C7-6BBC-42c5-A579-D1C74821290E}");
+tocTab[tocTab.length] = new Array("0.1:2", "", "Admin User", "EARoot/EA1/EA402.htm", "6.png", "E51005", "0", "", "Actor0","{35277769-3883-4139-998F-FBAD848416BF}");
+tocTab[tocTab.length] = new Array("0.1:3", "", "Create Configuration", "EARoot/EA1/EA403.htm", "7.png", "E51008", "0", "", "UseCase0","{DB411205-B555-4321-94E6-4FEDE5752459}");
+tocTab[tocTab.length] = new Array("0.1:4", "", "Delete Configuration", "EARoot/EA1/EA404.htm", "7.png", "E51011", "0", "", "UseCase0","{BE457456-6ABA-4635-8A48-D098E18CBE07}");
+tocTab[tocTab.length] = new Array("0.1:5", "", "Load Configuration", "EARoot/EA1/EA405.htm", "7.png", "E51012", "0", "", "UseCase0","{B74678F3-80AB-4da2-A8FA-D2EE5BFEE877}");
+tocTab[tocTab.length] = new Array("0.1:6", "", "Search Configuration", "EARoot/EA1/EA406.htm", "7.png", "E51010", "0", "", "UseCase0","{7BB46EA0-1FB3-45af-89D2-810731BE601E}");
+tocTab[tocTab.length] = new Array("0.1:7", "", "Update Configuration", "EARoot/EA1/EA407.htm", "7.png", "E51009", "0", "", "UseCase0","{8B68BF8B-9466-4095-AB8A-DD30B64FD614}");
