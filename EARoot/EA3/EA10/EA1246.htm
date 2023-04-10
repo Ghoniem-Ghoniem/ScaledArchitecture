@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Vehicle Permit Management</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA1247.png" usemap="#EA1247" border="0" />
+
+<MAP NAME="EA1247">
+<area shape="rect" coords="1858,1231,1884,1265" href="EA1374.htm" target="_self">
+<area shape="rect" coords="1968,928,2103,1003" href="EA1381.htm" target="_self">
+<area shape="rect" coords="1970,615,2105,690" href="EA1384.htm" target="_self">
+<area shape="rect" coords="1613,1209,1695,1294" href="EA1352.htm" target="_self">
+<area shape="rect" coords="1467,1213,1602,1288" href="EA1351.htm" target="_self">
+<area shape="rect" coords="1970,1052,2105,1127" href="EA1383.htm" target="_self">
+<area shape="rect" coords="1880,1067,1950,1107" href="EA1382.htm" target="_self">
+<area shape="rect" coords="1970,1214,2105,1289" href="EA1373.htm" target="_self">
+<area shape="rect" coords="575,1059,710,1134" href="EA1361.htm" target="_self">
+<area shape="rect" coords="993,952,1128,1027" href="EA1368.htm" target="_self">
+<area shape="rect" coords="1034,785,1060,819" href="EA1379.htm" target="_self">
+<area shape="rect" coords="1035,560,1061,594" href="EA1380.htm" target="_self">
+<area shape="rect" coords="816,543,951,618" href="EA1378.htm" target="_self">
+<area shape="rect" coords="1665,341,1800,416" href="EA1354.htm" target="_self">
+<area shape="rect" coords="1665,216,1800,291" href="EA1353.htm" target="_self">
+<area shape="rect" coords="1139,218,1165,252" href="EA1364.htm" target="_self">
+<area shape="rect" coords="1421,219,1556,294" href="EA1355.htm" target="_self">
+<area shape="rect" coords="985,662,1120,737" href="EA1377.htm" target="_self">
+<area shape="rect" coords="575,536,710,611" href="EA1371.htm" target="_self">
+<area shape="rect" coords="333,369,353,389" href="EA1357.htm" target="_self">
+<area shape="rect" coords="1089,341,1224,416" href="EA1367.htm" target="_self">
+<area shape="rect" coords="575,218,710,293" href="EA1369.htm" target="_self">
+<area shape="rect" coords="963,218,989,252" href="EA1365.htm" target="_self">
+<area shape="rect" coords="910,66,1057,141" href="EA1362.htm" target="_self">
+<area shape="rect" coords="575,63,710,138" href="EA1363.htm" target="_self">
+<area shape="rect" coords="29,57,74,147" href="../../EA2/EA78.htm" target="_self">
+<area shape="rect" coords="775,489,1327,882" href="EA1366.htm" target="_self">
+<area shape="rect" coords="533,10,1380,1321" href="EA1328.htm" target="_self">
+<area shape="rect" coords="161,10,533,1321" href="EA1320.htm" target="_self">
+<area shape="rect" coords="1380,10,1819,1321" href="EA1279.htm" target="_self">
+<area shape="rect" coords="1819,11,2189,1321" href="EA1375.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Vehicle Permit Management : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">4/2/2023 2:53:23 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">4/3/2023 3:59:13 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">ahmad.aboalshamat</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{2A62E468-2C8D-42dd-ABB4-E82462FF8C69}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

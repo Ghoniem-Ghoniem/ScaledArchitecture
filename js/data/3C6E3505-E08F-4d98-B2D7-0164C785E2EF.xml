@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.8:1", "", "01-Service Integration Level", "EARoot/EA8/EA669.htm", "180.png", "5416", "0", "", "Use Case diagram0","{C27FA080-82CF-41f7-87D8-A7578734E21E}");
-tocTab[tocTab.length] = new Array("0.8:2", "", "02-Database Integration Level", "EARoot/EA8/EA671.htm", "180.png", "5417", "0", "", "Use Case diagram0","{32185E6C-CECD-47e5-A7E9-69AC0357FAF7}");
-tocTab[tocTab.length] = new Array("0.8:3", "", "Service Integration", "EARoot/EA8/EA673.htm", "180.png", "5415", "0", "", "Use Case diagram0","{DE46BBF9-0DB8-4e58-B1AD-73078ADC3912}");
-tocTab[tocTab.length] = new Array("0.8:4", "", "Use Case Model", "EARoot/EA8/EA675.htm", "180.png", "5425", "0", "", "Use Case diagram0","{E4B53C36-EBD1-4743-9927-6A3CB2E22C03}");
-tocTab[tocTab.length] = new Array("0.8.1", "1", "Actors", "EARoot/EA8/EA1/EA694.htm", "4.png", "", "", "{C58009DA-6048-4fee-A2E0-6454CC1A0925}", "Package");
-tocTab[tocTab.length] = new Array("0.8.2", "1", "E-Traffic", "EARoot/EA8/EA2/EA698.htm", "4.png", "", "", "{7100A5AD-7A8A-48ff-B8A8-EC2AD94EFA64}", "Package");
-tocTab[tocTab.length] = new Array("0.8.3", "1", "Primary Use Cases", "EARoot/EA8/EA3/EA894.htm", "4.png", "", "", "{8B196B34-4573-440b-9CEB-9EA858B87715}", "Package");
+tocTab[tocTab.length] = new Array("0.3.8:1", "", "01-Service Integration Level", "EARoot/EA3/EA8/EA978.htm", "180.png", "5416", "0", "", "Use Case diagram0","{C27FA080-82CF-41f7-87D8-A7578734E21E}");
+tocTab[tocTab.length] = new Array("0.3.8:2", "", "02-Database Integration Level", "EARoot/EA3/EA8/EA980.htm", "180.png", "5417", "0", "", "Use Case diagram0","{32185E6C-CECD-47e5-A7E9-69AC0357FAF7}");
+tocTab[tocTab.length] = new Array("0.3.8:3", "", "Service Integration", "EARoot/EA3/EA8/EA982.htm", "180.png", "5415", "0", "", "Use Case diagram0","{DE46BBF9-0DB8-4e58-B1AD-73078ADC3912}");
+tocTab[tocTab.length] = new Array("0.3.8:4", "", "Use Case Model", "EARoot/EA3/EA8/EA984.htm", "180.png", "5425", "0", "", "Use Case diagram0","{E4B53C36-EBD1-4743-9927-6A3CB2E22C03}");
+tocTab[tocTab.length] = new Array("0.3.8.1", "1", "Actors", "EARoot/EA3/EA8/EA1/EA1003.htm", "4.png", "", "", "{C58009DA-6048-4fee-A2E0-6454CC1A0925}", "Package");
+tocTab[tocTab.length] = new Array("0.3.8.2", "1", "E-Traffic", "EARoot/EA3/EA8/EA2/EA1007.htm", "4.png", "", "", "{7100A5AD-7A8A-48ff-B8A8-EC2AD94EFA64}", "Package");
+tocTab[tocTab.length] = new Array("0.3.8.3", "1", "Primary Use Cases", "EARoot/EA3/EA8/EA3/EA1203.htm", "4.png", "", "", "{8B196B34-4573-440b-9CEB-9EA858B87715}", "Package");
