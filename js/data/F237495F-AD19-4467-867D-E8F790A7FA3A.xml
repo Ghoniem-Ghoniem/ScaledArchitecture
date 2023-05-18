@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.3.8.2.2:1", "", "Services Integrations", "EARoot/EA3/EA8/EA2/EA2/EA1016.htm", "178.png", "5440", "0", "", "Component diagram0","{635E541D-4485-4335-BFD8-A07E273F0C66}");
-tocTab[tocTab.length] = new Array("0.3.8.2.2:2", "", "ETraffic Service - Integration Consumers.xlsx", "EARoot/EA3/EA8/EA2/EA2/EA1022.htm", "82.png", "E50915", "0", "", "Artifact0","{F9FF61A0-19BC-4bcf-ACFC-07C770C1487D}");
-tocTab[tocTab.length] = new Array("0.3.8.2.2:3", "", "ETraffic Service - Integration Providers.xlsx", "EARoot/EA3/EA8/EA2/EA2/EA1023.htm", "82.png", "E50914", "0", "", "Artifact0","{8E5402BA-A9FF-4ec1-88FB-5BDC5EC59658}");
-tocTab[tocTab.length] = new Array("0.3.8.2.2:4", "", "Optimized WS.xlsx", "EARoot/EA3/EA8/EA2/EA2/EA1028.htm", "82.png", "E50916", "0", "", "Artifact0","{920165E7-B73F-4601-8B67-09B35C11543E}");
-tocTab[tocTab.length] = new Array("0.3.8.2.2.1", "1", "Apache SOAP", "EARoot/EA3/EA8/EA2/EA2/EA1/EA1031.htm", "4.png", "", "", "{B0377B2E-485C-4f48-B62F-184A7A7DFA8E}", "Package");
-tocTab[tocTab.length] = new Array("0.3.8.2.2.2", "1", "Jax-RS", "EARoot/EA3/EA8/EA2/EA2/EA2/EA1034.htm", "4.png", "", "", "{2AA71023-B34A-4f81-B38B-A15BFCAF3F99}", "Package");
-tocTab[tocTab.length] = new Array("0.3.8.2.2.3", "1", "Jax-WS(Optimized)", "EARoot/EA3/EA8/EA2/EA2/EA3/EA1047.htm", "4.png", "", "", "{EABE2ACE-AFBF-4206-BBC7-56965AAE6462}", "Package");
+tocTab[tocTab.length] = new Array("0.3.8.2.2:1", "", "Services Integrations", "EARoot/EA3/EA8/EA2/EA2/EA986.htm", "178.png", "5440", "0", "", "Component diagram0","{635E541D-4485-4335-BFD8-A07E273F0C66}");
+tocTab[tocTab.length] = new Array("0.3.8.2.2:2", "", "ETraffic Service - Integration Consumers.xlsx", "EARoot/EA3/EA8/EA2/EA2/EA992.htm", "82.png", "E50915", "0", "", "Artifact0","{F9FF61A0-19BC-4bcf-ACFC-07C770C1487D}");
+tocTab[tocTab.length] = new Array("0.3.8.2.2:3", "", "ETraffic Service - Integration Providers.xlsx", "EARoot/EA3/EA8/EA2/EA2/EA993.htm", "82.png", "E50914", "0", "", "Artifact0","{8E5402BA-A9FF-4ec1-88FB-5BDC5EC59658}");
+tocTab[tocTab.length] = new Array("0.3.8.2.2:4", "", "Optimized WS.xlsx", "EARoot/EA3/EA8/EA2/EA2/EA998.htm", "82.png", "E50916", "0", "", "Artifact0","{920165E7-B73F-4601-8B67-09B35C11543E}");
+tocTab[tocTab.length] = new Array("0.3.8.2.2.1", "1", "Apache SOAP", "EARoot/EA3/EA8/EA2/EA2/EA1/EA1001.htm", "4.png", "", "", "{B0377B2E-485C-4f48-B62F-184A7A7DFA8E}", "Package");
+tocTab[tocTab.length] = new Array("0.3.8.2.2.2", "1", "Jax-RS", "EARoot/EA3/EA8/EA2/EA2/EA2/EA1004.htm", "4.png", "", "", "{2AA71023-B34A-4f81-B38B-A15BFCAF3F99}", "Package");
+tocTab[tocTab.length] = new Array("0.3.8.2.2.3", "1", "Jax-WS(Optimized)", "EARoot/EA3/EA8/EA2/EA2/EA3/EA1017.htm", "4.png", "", "", "{EABE2ACE-AFBF-4206-BBC7-56965AAE6462}", "Package");

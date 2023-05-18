@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Migrate GRP Invoices</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA1458.png" usemap="#EA1458" border="0" />
+
+<MAP NAME="EA1458">
+<area shape="rect" coords="24,241,135,262" href="EA1593.htm" target="_self">
+<area shape="rect" coords="29,41,140,62" href="../EA215.htm" target="_self">
+<area shape="rect" coords="24,152,294,174" href="EA1439.htm" target="_self">
+<area shape="rect" coords="24,112,242,134" href="EA1455.htm" target="_self">
+<area shape="rect" coords="24,72,253,94" href="EA1437.htm" target="_self">
+<area shape="rect" coords="854,555,899,645" href="../../EA2/EA130.htm" target="_self">
+<area shape="rect" coords="20,440,278,462" href="EA1441.htm" target="_self">
+<area shape="rect" coords="20,400,284,422" href="EA1443.htm" target="_self">
+<area shape="rect" coords="20,360,222,382" href="EA1459.htm" target="_self">
+<area shape="rect" coords="20,320,208,342" href="EA1471.htm" target="_self">
+<area shape="rect" coords="24,192,287,214" href="EA1445.htm" target="_self">
+<area shape="rect" coords="20,280,313,302" href="EA1453.htm" target="_self">
+<area shape="rect" coords="665,165,770,235" href="EA1580.htm" target="_self">
+<area shape="rect" coords="896,423,1001,493" href="EA1590.htm" target="_self">
+<area shape="rect" coords="659,433,764,503" href="EA1587.htm" target="_self">
+<area shape="rect" coords="666,37,771,107" href="EA1582.htm" target="_self">
+<area shape="rect" coords="474,444,579,514" href="EA1589.htm" target="_self">
+<area shape="rect" coords="468,322,573,392" href="EA1579.htm" target="_self">
+<area shape="rect" coords="892,309,997,379" href="EA1581.htm" target="_self">
+<area shape="rect" coords="353,165,398,255" href="../../EA2/EA106.htm" target="_self">
+<area shape="rect" coords="1078,160,1123,250" href="../../EA2/EA115.htm" target="_self">
+<area shape="rect" coords="898,189,1003,259" href="EA1588.htm" target="_self">
+<area shape="rect" coords="661,299,766,369" href="EA1585.htm" target="_self">
+<area shape="rect" coords="467,207,572,277" href="EA1586.htm" target="_self">
+<area shape="rect" coords="451,156,603,579" href="EA1584.htm" target="_self">
+<area shape="rect" coords="862,120,1042,519" href="EA1583.htm" target="_self">
+<area shape="rect" coords="10,14,320,536" href="EA1578.htm" target="_self">
+<area shape="rect" coords="636,134,800,530" href="EA1592.htm" target="_self">
+<area shape="rect" coords="638,10,798,118" href="EA1591.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Migrate GRP Invoices : Use Case diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2/20/2023 9:50:07 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">3/23/2023 2:44:55 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Mahdi</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{F2D68D3F-7119-410a-8E94-11CBAA55817A}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -2,8 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Deployment Model::Handbook
-</title>
+<title>01-Configuration Module</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -35,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Handbook<br />", " : "))</script>  : Public   Component</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("01-Configuration Module", " : "))</script>  : Public   Component</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">12/27/2022 8:27:29 PM</td>
+			<td width="85%" class="ObjectDetailsValue">11/15/2022 2:08:31 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">12/27/2022 8:29:00 PM</td>
+			<td class="ObjectDetailsValue">2/21/2023 11:15:15 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -52,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">ghoniem.ghoniem</td>
+			<td class="ObjectDetailsValue">Yousif Ennwa</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -88,18 +87,268 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{E7FE318F-E4D5-4758-B84D-4DFBEA4EB3B5}</td>
+			<td class="ObjectDetailsValue">{75655970-3412-456d-A859-23CDD41BAE4B}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA2508.htm">DLS(Drivers Licensing System)</a></td>
+			<td class="ObjectDetailsValue"><a href="EA2618.htm">Appplication Server</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">As Solution Architect,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to build a centralized configuration module that hold the application configuration and enable the ability of updating the required configuration by front-end application, and this to be handled by system administrator.&lt;br /&gt;&lt;/p&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Requirements');" id="RequirementsTitle">Requirements</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="RequirementsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="60%" class="TableHeading">Requirement</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+					<td width="10%" class="TableHeading">Difficulty</td>
+					<td width="10%" class="TableHeading">Priority</td>
+					<td width="10%" class="TableHeading">Stability</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">01 - Dedicated DB Schema</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2893" onclick="parent.toggleDiv('detailsDIVRequirement2893','DetailsImageRequirement2893')" />Details:
+							<div id="detailsDIVRequirement2893" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a system architect,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to have a dedicated DB so that the system configurations are not scattered over multi MS DB schemas.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">02 - Front-end application</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2894" onclick="parent.toggleDiv('detailsDIVRequirement2894','DetailsImageRequirement2894')" />Details:
+							<div id="detailsDIVRequirement2894" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a support/admin user, &lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want a front end application,&lt;br /&gt;&lt;/p&gt;&lt;p&gt; to configure/update system configuration without inserting/updating the required configuration manually by scripts&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">03 - Caching layer</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2895" onclick="parent.toggleDiv('detailsDIVRequirement2895','DetailsImageRequirement2895')" />Details:
+							<div id="detailsDIVRequirement2895" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As Solution Architect,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to make sure caching the needed configurations to assure the efficiency of retrieving the required configuration once needed&#160; &lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">DX01 : Average Service Time</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2896" onclick="parent.toggleDiv('detailsDIVRequirement2896','DetailsImageRequirement2896')" />Details:
+							<div id="detailsDIVRequirement2896" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Business Owner,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to minimize the service completion time so that we can increase customer satisfaction and service adoption&#160; &lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">DX02 : Service Completion Rate</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2897" onclick="parent.toggleDiv('detailsDIVRequirement2897','DetailsImageRequirement2897')" />Details:
+							<div id="detailsDIVRequirement2897" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Business Owner&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to increase number of completed transactions so that increase service adoption&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">DX03: Automation%</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2898" onclick="parent.toggleDiv('detailsDIVRequirement2898','DetailsImageRequirement2898')" />Details:
+							<div id="detailsDIVRequirement2898" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Business Owner,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;In order to automate the service execution without any level of involvement.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;system should renew the service automatically. &lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">DX06: Increase Customer satisfaction</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2899" onclick="parent.toggleDiv('detailsDIVRequirement2899','DetailsImageRequirement2899')" />Details:
+							<div id="detailsDIVRequirement2899" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Business Owner,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to give the control of the application configurations, messages and notifications to the admin users so that they&#39;ll not requests for updates using application code and DB scripts.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">DX08: Error Occurance Rate</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2900" onclick="parent.toggleDiv('detailsDIVRequirement2900','DetailsImageRequirement2900')" />Details:
+							<div id="detailsDIVRequirement2900" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As an analyst,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to minimize system updates and deployments so that achieve systems stability.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR-03 - Security</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2901" onclick="parent.toggleDiv('detailsDIVRequirement2901','DetailsImageRequirement2901')" />Details:
+							<div id="detailsDIVRequirement2901" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As an Architect,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to secure the configuration front end app so that only authorized users can update system configurations&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR-05- Stability</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2902" onclick="parent.toggleDiv('detailsDIVRequirement2902','DetailsImageRequirement2902')" />Details:
+							<div id="detailsDIVRequirement2902" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As an architect,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to avoid system configurations by giving a front end application to the admin users to update and maintain the configurations to avoid the continuous system changes and deployments&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR04 : Reusability</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2903" onclick="parent.toggleDiv('detailsDIVRequirement2903','DetailsImageRequirement2903')" />Details:
+							<div id="detailsDIVRequirement2903" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As an Architect,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide enhancements without impairing system and journeys functions&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR04- Agility- Maintainability</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2904" onclick="parent.toggleDiv('detailsDIVRequirement2904','DetailsImageRequirement2904')" />Details:
+							<div id="detailsDIVRequirement2904" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As an Architect,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to make sure that the configuration module is maintainable to achieve the following:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;1. Real time updates from the admin users&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2. Decrease changes cost and efforts from application side&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR07- Observability-Logging</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2905" onclick="parent.toggleDiv('detailsDIVRequirement2905','DetailsImageRequirement2905')" />Details:
+							<div id="detailsDIVRequirement2905" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As an architect,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to control the system logging level to increase and enhance trace ability&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -113,7 +362,40 @@ function nameClassifier(name, separator)
 
 
 			</table>
-		</div>	</div>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">NFR01-Configurable Features</td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">NFR02: Realtime reconfiguration</td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">NFR03 : Usability- & effortless Journey</td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

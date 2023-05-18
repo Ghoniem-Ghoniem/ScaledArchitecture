@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.3.16:1", "", "14-Invoice Use Case Model", "EARoot/EA3/EA16/EA1661.htm", "180.png", "5631", "0", "", "Use Case diagram0","{4551D0D1-2006-4274-81D5-29E397A225DB}");
+tocTab[tocTab.length] = new Array("0.3.16:2", "", "Cancel Invoice", "EARoot/EA3/EA16/EA1664.htm", "7.png", "E51898", "0", "", "UseCase0","{EDC25519-6511-482f-BE8E-080006A84E19}");
+tocTab[tocTab.length] = new Array("0.3.16:3", "", "Confirm Dx Transaction by Dx", "EARoot/EA3/EA16/EA1665.htm", "7.png", "E51908", "0", "", "UseCase0","{02A1C9CC-3F68-4143-AB44-A11A7E94FCEB}");
+tocTab[tocTab.length] = new Array("0.3.16:4", "", "Confirm Invoice by Journey", "EARoot/EA3/EA16/EA1666.htm", "7.png", "E51907", "0", "", "UseCase0","{3491D5CC-DA87-4350-A8B7-1641163526A5}");
+tocTab[tocTab.length] = new Array("0.3.16:5", "", "Confirm SDG Payment", "EARoot/EA3/EA16/EA1667.htm", "7.png", "E51897", "0", "", "UseCase0","{08633826-8C3B-4850-A510-BA423C309AD5}");
+tocTab[tocTab.length] = new Array("0.3.16:6", "", "Create Dx SDG Transactions", "EARoot/EA3/EA16/EA1668.htm", "7.png", "E51902", "0", "", "UseCase0","{F92E405D-19CA-48ab-8D59-754D7310B148}");
+tocTab[tocTab.length] = new Array("0.3.16:7", "", "Create Free Dx Transactions", "EARoot/EA3/EA16/EA1669.htm", "7.png", "E51919", "0", "", "UseCase0","{61E83401-9514-49e8-B48D-5DC4E0098967}");
+tocTab[tocTab.length] = new Array("0.3.16:8", "", "Create Invoice", "EARoot/EA3/EA16/EA1670.htm", "7.png", "E51895", "0", "", "UseCase0","{B608EB67-9495-437e-887E-BB71B5E9E9B1}");
+tocTab[tocTab.length] = new Array("0.3.16:9", "", "Process Dx eWallet Payment", "EARoot/EA3/EA16/EA1673.htm", "7.png", "E51905", "0", "", "UseCase0","{81266400-4558-4b32-9589-51E248D43723}");
+tocTab[tocTab.length] = new Array("0.3.16:10", "", "Process Dx SDG Transactions payment result", "EARoot/EA3/EA16/EA1674.htm", "7.png", "E51904", "0", "", "UseCase0","{B81AF48E-A119-47aa-94A8-5E7C9E4C9708}");
+tocTab[tocTab.length] = new Array("0.3.16:11", "", "Send Dx SDG Transactions for payment", "EARoot/EA3/EA16/EA1675.htm", "7.png", "E51903", "0", "", "UseCase0","{77C1907D-63C8-47e5-A916-25949E138505}");
+tocTab[tocTab.length] = new Array("0.3.16:12", "", "Send for Payment", "EARoot/EA3/EA16/EA1676.htm", "7.png", "E51896", "0", "", "UseCase0","{14DB24F4-274C-4ada-8FA3-5DA3090F1368}");

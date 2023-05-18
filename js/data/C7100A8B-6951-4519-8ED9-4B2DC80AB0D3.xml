@@ -1,2 +1,6 @@
-tocTab[tocTab.length] = new Array("0.5.3.2:1", "", "ExemptionRuleStatus", "EARoot/EA5/EA3/EA2/EA1982.htm", "247.png", "E51504", "0", "", "Enumeration0","{B347A881-7954-412d-92F7-D828DBDE3A1A}");
-tocTab[tocTab.length] = new Array("0.5.3.2:2", "", "RuleTypeStatus", "EARoot/EA5/EA3/EA2/EA1983.htm", "247.png", "E51503", "0", "", "Enumeration0","{8C39DF01-E553-4ff5-B3E5-2D7561CB3242}");
+tocTab[tocTab.length] = new Array("0.5.3.2:1", "", "ExemptionRequestStatus", "EARoot/EA5/EA3/EA2/EA2116.htm", "247.png", "E51870", "0", "", "Enumeration0","{8DB438A0-CDC0-4ade-95CD-8E43CDE03B48}");
+tocTab[tocTab.length] = new Array("0.5.3.2:2", "", "ExemptionRuleStatus", "EARoot/EA5/EA3/EA2/EA2117.htm", "247.png", "E51504", "0", "", "Enumeration0","{B347A881-7954-412d-92F7-D828DBDE3A1A}");
+tocTab[tocTab.length] = new Array("0.5.3.2:3", "", "ProfileCategoryType", "EARoot/EA5/EA3/EA2/EA2118.htm", "247.png", "E51869", "0", "", "Enumeration0","{9F49198E-D043-4640-A0F7-B768D8BBF105}");
+tocTab[tocTab.length] = new Array("0.5.3.2:4", "", "RuleTemplateStatus", "EARoot/EA5/EA3/EA2/EA2119.htm", "247.png", "E51503", "0", "", "Enumeration0","{8C39DF01-E553-4ff5-B3E5-2D7561CB3242}");
+tocTab[tocTab.length] = new Array("0.5.3.2:5", "", "UsageStatus", "EARoot/EA5/EA3/EA2/EA2120.htm", "247.png", "E51872", "0", "", "Enumeration0","{0C25143F-EB93-4dc5-A697-D71A17E09628}");
+tocTab[tocTab.length] = new Array("0.5.3.2:6", "", "ExemptionRuleCategory", "EARoot/EA5/EA3/EA2/EA2121.htm", "247.png", "E51470", "0", "", "Enumeration0","{8453D0AA-6A53-45a8-B4CE-A57860893DC1}");

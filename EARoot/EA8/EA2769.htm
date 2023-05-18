@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Deployment Model::OpenShift Containers : Application Server::03-Logging Module::Logging Action</title>
+<title>Notification Service</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Logging Action", " : "))</script>  : Public   Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Notification Service", " : "))</script>  : Public   Component</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">11/15/2022 5:52:14 PM</td>
+			<td width="85%" class="ObjectDetailsValue">10/24/2021 7:20:03 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">2/1/2023 7:58:59 PM</td>
+			<td class="ObjectDetailsValue">2/22/2023 3:57:51 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">ghoniem.ghoniem</td>
+			<td class="ObjectDetailsValue">Yousif Ennwa</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,14 +87,297 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{DB1D189A-2097-4bd9-BC79-4979E6902E8C}</td>
+			<td class="ObjectDetailsValue">{6C98AD6E-4804-4622-8519-69C819F29849}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA2528.htm">Logging</a></td>
+			<td class="ObjectDetailsValue"><a href="EA2618.htm">Appplication Server</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">As Solution Architect, &lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to prepare solution to generate and send &lt;b&gt;SMS &lt;/b&gt;and &lt;b&gt;Email &lt;/b&gt;notifications based on specific business trigger using predefined templates.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Building notification module can be designed in two different approaches:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ol&gt;&lt;li&gt;Each micro-service can handle it&#39;s own notification logic, which will handle the generation, sending and orchestration for all notification process. in this case, the notifications process and data will be distributed in all micro-services and it will lose the&lt;b&gt; Segregation of Duties (SOD)&lt;/b&gt; concept, and it is hard to be maintainable and adding any new features. &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ol&gt;&lt;li&gt;A dedicated Notification micro-service that can handle all Notification templates generations and sending for all other micro-services, in that case we can build all notifications logic once in this micro-service. In this case we will guarantee that all features and enhancements applied once with no gaps.we can also build a dedicated front-end over this micro-service for template monitoring and modification. &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;From above, we will go with the second approach as it&#39;s clearly will fulfill our requirement.&lt;br /&gt;&lt;/p&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('Requirements');" id="RequirementsTitle">Requirements</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA2740.htm">Bit.ly Shorner</a><br />
+						Component &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink2987" onclick="parent.toggleDiv('detailsDIVLink2987','DetailsImageLink2987')" />Details:
+							<div id="detailsDIVLink2987" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="RequirementsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="60%" class="TableHeading">Requirement</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+					<td width="10%" class="TableHeading">Difficulty</td>
+					<td width="10%" class="TableHeading">Priority</td>
+					<td width="10%" class="TableHeading">Stability</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">FR-01 : Realtime Processing.</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2988" onclick="parent.toggleDiv('detailsDIVRequirement2988','DetailsImageRequirement2988')" />Details:
+							<div id="detailsDIVRequirement2988" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Software which giving the ability to push a notification message in real-time with no latency in DX journeys in asynchronous way.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This achieved this by choosing&lt;b&gt; Apache Kafka&lt;/b&gt; as its applying the &lt;b&gt;Asynchronous &lt;/b&gt;model with assure the fulfillment of our this requirement.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">FR-02 : Monitoring Model.</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2989" onclick="parent.toggleDiv('detailsDIVRequirement2989','DetailsImageRequirement2989')" />Details:
+							<div id="detailsDIVRequirement2989" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide front-end application for monitoring all pushed notifications with proper classification and visualize the trends of daily processes.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This model will be grouped&#160; by templates,client DX application and time interval as mandatory attributes, then we can search more specific by the pre-defined business keys in each notification.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">FR-03 : Logging Model</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2990" onclick="parent.toggleDiv('detailsDIVRequirement2990','DetailsImageRequirement2990')" />Details:
+							<div id="detailsDIVRequirement2990" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a dynamic logging mechanism for all &lt;b&gt;notification message/status&lt;/b&gt;, we build a custom logic to log all notification actions status with max efficiency in retrieving the notification history using notification template.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">FR-04 : Configurability</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2991" onclick="parent.toggleDiv('detailsDIVRequirement2991','DetailsImageRequirement2991')" />Details:
+							<div id="detailsDIVRequirement2991" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Configurable Software which handle the sending of all DX system notification using its defined configured templates.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">FR-05 : Administration Model</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2992" onclick="parent.toggleDiv('detailsDIVRequirement2992','DetailsImageRequirement2992')" />Details:
+							<div id="detailsDIVRequirement2992" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide front-end application for maintaining, re-pushing and monitoring (Administration) the notification messages and related templates and visualize the trends of daily processes.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This model will be grouped by system,template and time interval as mandatory attributes, then we can search more specific by the pre-defined notification template keys.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">FR-06 : Retrial Model</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2993" onclick="parent.toggleDiv('detailsDIVRequirement2993','DetailsImageRequirement2993')" />Details:
+							<div id="detailsDIVRequirement2993" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a robust re-trial mechanism for failed sending notification, we build a configurable re-trial engine with initial (5 trials).&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR01: Securing the application from common attacks</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2994" onclick="parent.toggleDiv('detailsDIVRequirement2994','DetailsImageRequirement2994')" />Details:
+							<div id="detailsDIVRequirement2994" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Software which being secured from any attack.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR02: Maintainability.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2995" onclick="parent.toggleDiv('detailsDIVRequirement2995','DetailsImageRequirement2995')" />Details:
+							<div id="detailsDIVRequirement2995" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a system which should be maintainable at anytime with short time line and no complexity.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR03: Fault Tolerance.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2996" onclick="parent.toggleDiv('detailsDIVRequirement2996','DetailsImageRequirement2996')" />Details:
+							<div id="detailsDIVRequirement2996" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Software which continue operating without interruption when one or more of its components fail, this achieved by using a fallback in case of failure of a micro-service.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Fault tolerance can be achieved with the help of a circuit breaker. and we will use &lt;b&gt;Hystrix &lt;/b&gt;Fault Tolerance to achieve this functionality, which fulfil our requirement. &lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR04: Recoverability.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2997" onclick="parent.toggleDiv('detailsDIVRequirement2997','DetailsImageRequirement2997')" />Details:
+							<div id="detailsDIVRequirement2997" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Software which being Receivable at anytime in very fast way.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR05: Availability.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2998" onclick="parent.toggleDiv('detailsDIVRequirement2998','DetailsImageRequirement2998')" />Details:
+							<div id="detailsDIVRequirement2998" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a system with high availability at anytime to handle any new messages for sending.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR06: Reliablility.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement2999" onclick="parent.toggleDiv('detailsDIVRequirement2999','DetailsImageRequirement2999')" />Details:
+							<div id="detailsDIVRequirement2999" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a system which should be reliable at anytime to handle any new messages for sending in&lt;b&gt; proper way&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
+				<td width="70%" class="TableRow">true</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>
