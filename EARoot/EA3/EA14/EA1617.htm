@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ActivityInitial</title>
+<title>wait for 1 minute</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ActivityInitial", " : "))</script>  : Public   ActivityInitial</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("wait for 1 minute", " : "))</script>  : Public   CentralBufferNode</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2/22/2023 11:11:02 AM</td>
+			<td width="85%" class="ObjectDetailsValue">2/21/2023 8:23:34 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">2/22/2023 11:11:02 AM</td>
+			<td class="ObjectDetailsValue">2/21/2023 8:24:01 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,17 +87,18 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{FA398097-553F-459a-A088-92F0E067D179}</td>
+			<td class="ObjectDetailsValue">{1BC42F47-93FA-48f2-8D07-85349BF8349E}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1459.htm">Re-Calculate</a>, <a href="EA1441.htm">12-GRP : Cancel the invoice</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1529.htm">Initiate workflow request for each new Invoice</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
 		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -107,30 +108,54 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA1619.htm">DevOps ticket is stored</a><br />
-						Decision &nbsp;
+						<a href="EA1575.htm">Get New invoices</a><br />
+						Activity &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1315" onclick="parent.toggleDiv('detailsDIVLinkFlow1315', 'DetailsImageLinkFlow1315')" />Details:
-							<div id="detailsDIVLinkFlow1315" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1223" onclick="parent.toggleDiv('detailsDIVLinkFlow1223', 'DetailsImageLinkFlow1223')" />Details:
+							<div id="detailsDIVLinkFlow1223" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA1566.htm">Create BPM workflow</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1224" onclick="parent.toggleDiv('detailsDIVLinkFlow1224', 'DetailsImageLinkFlow1224')" />Details:
+							<div id="detailsDIVLinkFlow1224" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA1493.htm">DevOps ticket is stored</a><br />
+						<a href="EA1573.htm">Found?</a><br />
 						Decision &nbsp;
 					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top">No</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1316" onclick="parent.toggleDiv('detailsDIVLinkFlow1316', 'DetailsImageLinkFlow1316')" />Details:
-							<div id="detailsDIVLinkFlow1316" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1225" onclick="parent.toggleDiv('detailsDIVLinkFlow1225', 'DetailsImageLinkFlow1225')" />Details:
+							<div id="detailsDIVLinkFlow1225" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>

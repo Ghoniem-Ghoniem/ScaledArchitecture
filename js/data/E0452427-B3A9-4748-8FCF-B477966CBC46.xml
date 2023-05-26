@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.4.2.1:1", "", "Request Eligible exemtpions", "EARoot/EA4/EA2/EA1/EA1860.htm", "5.png", "E51644", "0", "", "Class0","{84B157CF-DD06-4afb-A5C7-8DBD02079CE9}");
-tocTab[tocTab.length] = new Array("0.4.2.1:2", "", "Customer Exemption Rule", "EARoot/EA4/EA2/EA1/EA1861.htm", "5.png", "E51448", "0", "", "Class0","{E27FAD23-F9DE-4798-A637-4FCAE7B0FAE5}");
-tocTab[tocTab.length] = new Array("0.4.2.1:3", "", "Exemption Request", "EARoot/EA4/EA2/EA1/EA1862.htm", "5.png", "E51488", "0", "", "Class0","{217785CB-CE37-409d-84C0-36AF9770FE4A}");
-tocTab[tocTab.length] = new Array("0.4.2.1:4", "", "Exemption Request Fee", "EARoot/EA4/EA2/EA1/EA1863.htm", "5.png", "E51456", "0", "", "Class0","{03A21AC6-FDBF-4ec8-A668-7B43066FC5E5}");
-tocTab[tocTab.length] = new Array("0.4.2.1:5", "", "Exemption Rule Template", "EARoot/EA4/EA2/EA1/EA1864.htm", "5.png", "E51447", "0", "", "Class0","{1C24E7B9-8513-452a-8347-2757245A442E}");
-tocTab[tocTab.length] = new Array("0.4.2.1:6", "", "Request Fee Collection Item", "EARoot/EA4/EA2/EA1/EA1865.htm", "5.png", "E51457", "0", "", "Class0","{C0769D58-BC4B-4401-A6AD-73506F9FA350}");
+tocTab[tocTab.length] = new Array("0.4.2.1:1", "", "Request Eligible exemtpions", "EARoot/EA4/EA2/EA1/EA1942.htm", "5.png", "E51644", "0", "", "Class0","{84B157CF-DD06-4afb-A5C7-8DBD02079CE9}");
+tocTab[tocTab.length] = new Array("0.4.2.1:2", "", "Customer Exemption Rule", "EARoot/EA4/EA2/EA1/EA1943.htm", "5.png", "E51448", "0", "", "Class0","{E27FAD23-F9DE-4798-A637-4FCAE7B0FAE5}");
+tocTab[tocTab.length] = new Array("0.4.2.1:3", "", "Exemption Request", "EARoot/EA4/EA2/EA1/EA1944.htm", "5.png", "E51488", "0", "", "Class0","{217785CB-CE37-409d-84C0-36AF9770FE4A}");
+tocTab[tocTab.length] = new Array("0.4.2.1:4", "", "Exemption Request Fee", "EARoot/EA4/EA2/EA1/EA1945.htm", "5.png", "E51456", "0", "", "Class0","{03A21AC6-FDBF-4ec8-A668-7B43066FC5E5}");
+tocTab[tocTab.length] = new Array("0.4.2.1:5", "", "Exemption Rule Template", "EARoot/EA4/EA2/EA1/EA1946.htm", "5.png", "E51447", "0", "", "Class0","{1C24E7B9-8513-452a-8347-2757245A442E}");
+tocTab[tocTab.length] = new Array("0.4.2.1:6", "", "Request Fee Collection Item", "EARoot/EA4/EA2/EA1/EA1947.htm", "5.png", "E51457", "0", "", "Class0","{C0769D58-BC4B-4401-A6AD-73506F9FA350}");
