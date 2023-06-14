@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.4.3:1", "", "12-GRP - Business Calss Diagram", "EARoot/EA4/EA3/EA2017.htm", "175.png", "5570", "0", "", "Logical diagram0","{2D470AAD-C0AB-4852-80CB-D525E000565C}");
+tocTab[tocTab.length] = new Array("0.4.3.1", "1", "Activtiy Diagram", "EARoot/EA4/EA3/EA1/EA2031.htm", "4.png", "", "", "{306AB1E5-9BAD-4b4f-AF39-78B34EA7EF6F}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2", "1", "Domain Objects", "EARoot/EA4/EA3/EA2/EA2065.htm", "4.png", "", "", "{76B24FDB-D51A-48c9-9D30-6201F00D8247}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.3", "1", "State Machine", "EARoot/EA4/EA3/EA3/EA2075.htm", "4.png", "", "", "{8D2392BB-C45C-4fba-B4D0-DD744DFE138E}", "Package");

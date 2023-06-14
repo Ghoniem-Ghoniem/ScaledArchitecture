@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.4.3.2:1", "", "GRP Invoice", "EARoot/EA4/EA3/EA2/EA2066.htm", "5.png", "E51338", "0", "", "Class0","{5CC499CE-D6D0-4112-9722-FBBEBBFD743A}");
+tocTab[tocTab.length] = new Array("0.4.3.2:2", "", "GRP invoice calculation request", "EARoot/EA4/EA3/EA2/EA2067.htm", "5.png", "E51346", "0", "", "Class0","{4CDD6D06-27E1-41d5-857E-2732BAA3ECE8}");
+tocTab[tocTab.length] = new Array("0.4.3.2:3", "", "GRP Invoice Template", "EARoot/EA4/EA3/EA2/EA2068.htm", "5.png", "E51344", "0", "", "Class0","{6B8416C7-633B-4a84-82E3-F17E0492347F}");
+tocTab[tocTab.length] = new Array("0.4.3.2:4", "", "GRP Invoice Template Columns", "EARoot/EA4/EA3/EA2/EA2069.htm", "5.png", "E51345", "0", "", "Class0","{BCDD6F75-614A-4a55-85E1-69ECFFB66918}");
+tocTab[tocTab.length] = new Array("0.4.3.2:5", "", "Invoice Calculated Value", "EARoot/EA4/EA3/EA2/EA2070.htm", "5.png", "E51348", "0", "", "Class0","{BA20E038-434F-4509-8E75-660DF87D2BDC}");
+tocTab[tocTab.length] = new Array("0.4.3.2:6", "", "Invoice Line", "EARoot/EA4/EA3/EA2/EA2071.htm", "5.png", "E51343", "0", "", "Class0","{FFE28544-626D-4cce-AC04-A9EFAB5A4C46}");
+tocTab[tocTab.length] = new Array("0.4.3.2:7", "", "Invoice Template Line", "EARoot/EA4/EA3/EA2/EA2072.htm", "5.png", "E51471", "0", "", "Class0","{0118032F-D097-4848-A06C-A4CD24493F85}");
