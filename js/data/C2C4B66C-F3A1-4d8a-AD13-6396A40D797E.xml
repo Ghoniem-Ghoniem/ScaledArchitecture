@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.5.3:1", "", "Exemptions Class Diagram", "EARoot/EA5/EA3/EA2345.htm", "175.png", "5590", "0", "", "Logical diagram0","{94E95D37-6A76-451d-9E44-6714CE07263E}");
-tocTab[tocTab.length] = new Array("0.5.3:2", "", "EligibleExemptionRule", "EARoot/EA5/EA3/EA2350.htm", "5.png", "E51871", "0", "", "Class0","{A5FF04DD-110D-44a2-B3F3-232C389AFCDE}");
-tocTab[tocTab.length] = new Array("0.5.3.1", "1", "Classes", "EARoot/EA5/EA3/EA1/EA2353.htm", "4.png", "", "", "{C0A57D81-469F-4d3a-A8B5-D27706F22788}", "Package");
-tocTab[tocTab.length] = new Array("0.5.3.2", "1", "Enums", "EARoot/EA5/EA3/EA2/EA2363.htm", "4.png", "", "", "{C7100A8B-6951-4519-8ED9-4B2DC80AB0D3}", "Package");
+tocTab[tocTab.length] = new Array("0.5.3:1", "", "Exemptions Class Diagram", "EARoot/EA5/EA3/EA3531.htm", "175.png", "5590", "0", "", "Logical diagram0","{94E95D37-6A76-451d-9E44-6714CE07263E}");
+tocTab[tocTab.length] = new Array("0.5.3:2", "", "EligibleExemptionRule", "EARoot/EA5/EA3/EA3536.htm", "5.png", "E51871", "0", "", "Class0","{A5FF04DD-110D-44a2-B3F3-232C389AFCDE}");
+tocTab[tocTab.length] = new Array("0.5.3.1", "1", "Classes", "EARoot/EA5/EA3/EA1/EA3541.htm", "4.png", "", "", "{C0A57D81-469F-4d3a-A8B5-D27706F22788}", "Package");
+tocTab[tocTab.length] = new Array("0.5.3.2", "1", "Enums", "EARoot/EA5/EA3/EA2/EA3552.htm", "4.png", "", "", "{C7100A8B-6951-4519-8ED9-4B2DC80AB0D3}", "Package");

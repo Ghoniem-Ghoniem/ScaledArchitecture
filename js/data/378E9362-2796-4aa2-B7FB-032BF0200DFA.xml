@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.2:1", "", "Security", "EARoot/EA3/EA2/EA318.htm", "180.png", "5791", "0", "", "Use Case diagram0","{AE1C3754-1CFF-430f-87F9-B37F3E68E20A}");
+tocTab[tocTab.length] = new Array("0.3.2:2", "", "Define New Group", "EARoot/EA3/EA2/EA321.htm", "7.png", "E53464", "0", "", "UseCase0","{E72E657D-6483-4b22-9D98-E857183E1816}");
+tocTab[tocTab.length] = new Array("0.3.2:3", "", "Define User", "EARoot/EA3/EA2/EA322.htm", "7.png", "E53463", "0", "", "UseCase0","{1842A593-AED0-4c54-A7B5-0C763B15EE1A}");
+tocTab[tocTab.length] = new Array("0.3.2:4", "", "Grant Access", "EARoot/EA3/EA2/EA323.htm", "7.png", "E53461", "0", "", "UseCase0","{3C857AD6-3CBA-46fc-9771-601703051308}");
+tocTab[tocTab.length] = new Array("0.3.2:5", "", "Revok Acess", "EARoot/EA3/EA2/EA324.htm", "7.png", "E53462", "0", "", "UseCase0","{7FBCFA18-9B26-4fdb-A47E-D62154D721BF}");
+tocTab[tocTab.length] = new Array("0.3.2:6", "", "Use Case1", "EARoot/EA3/EA2/EA325.htm", "7.png", "E53465", "0", "", "UseCase0","{22F07C45-2317-4988-B971-4A32B1F1F56C}");

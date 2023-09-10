@@ -1,1 +1,2 @@
-tocTab[tocTab.length] = new Array("0.5.5.2.1.1", "1", "Sprint 56", "EARoot/EA5/EA5/EA2/EA1/EA1/EA2451.htm", "4.png", "", "", "{E52D791A-6907-44bf-81A9-19B818E75DF7}", "Package");
+tocTab[tocTab.length] = new Array("0.5.5.2.1.1", "1", "Sprint 56", "EARoot/EA5/EA5/EA2/EA1/EA1/EA3701.htm", "4.png", "", "", "{E52D791A-6907-44bf-81A9-19B818E75DF7}", "Package");
+tocTab[tocTab.length] = new Array("0.5.5.2.1.2", "1", "Sprint 58", "EARoot/EA5/EA5/EA2/EA1/EA2/EA3719.htm", "4.png", "", "", "{B3838534-7B67-4b88-88B3-39ABD9352F94}", "Package");
