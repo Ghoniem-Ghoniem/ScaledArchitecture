@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Payment Sataus</title>
+<title>Create Invoice</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Payment Sataus", " : "))</script>  : Public   Decision</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Create Invoice", " : "))</script>  : Public   Activity</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{29196651-C0A9-423a-A86D-81D0C1AC72E0}</td>
+			<td class="ObjectDetailsValue">{B79D31D9-7916-4bef-8714-3A169CCC2ABF}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1085.htm">Return from Tourism Certificate - Workflow</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1088.htm">Return from Tourism Certificate - Workflow</a></td>
 		</tr>
 	</table>
 	
@@ -99,6 +99,7 @@ function nameClassifier(name, separator)
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
 		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -108,30 +109,15 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA1112.htm">Cancel Paymnet Transaction & Set Joureny status "Ready for Paymnet"</a><br />
+						<a href="EA1123.htm">Show Calcualted Fees</a><br />
 						Activity &nbsp;
 					</td>
-					<td width="50%" class="TableRow" valign="top">Failed</td>					
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
 						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow894" onclick="parent.toggleDiv('detailsDIVLinkFlow894', 'DetailsImageLinkFlow894')" />Details:
 							<div id="detailsDIVLinkFlow894" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA1114.htm">Confirm Journey</a><br />
-						Activity &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">Success</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow895" onclick="parent.toggleDiv('detailsDIVLinkFlow895', 'DetailsImageLinkFlow895')" />Details:
-							<div id="detailsDIVLinkFlow895" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -147,15 +133,15 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA1137.htm">Pay Invoice</a><br />
+						<a href="EA1120.htm">Initiate Issue Certificate joureny</a><br />
 						Activity &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow896" onclick="parent.toggleDiv('detailsDIVLinkFlow896', 'DetailsImageLinkFlow896')" />Details:
-							<div id="detailsDIVLinkFlow896" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow895" onclick="parent.toggleDiv('detailsDIVLinkFlow895', 'DetailsImageLinkFlow895')" />Details:
+							<div id="detailsDIVLinkFlow895" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -163,7 +149,20 @@ function nameClassifier(name, separator)
 				</tr>
 			</table>
 		</div>
-	</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

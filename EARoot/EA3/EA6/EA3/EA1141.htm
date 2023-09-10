@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Start</title>
+<title>Payment Sataus</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Start", " : "))</script>  : Public   ActivityInitial</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Payment Sataus", " : "))</script>  : Public   Decision</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">9/2/2023 9:24:57 PM</td>
+			<td width="85%" class="ObjectDetailsValue">9/2/2023 9:24:58 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9/2/2023 9:24:57 PM</td>
+			<td class="ObjectDetailsValue">9/2/2023 9:24:58 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,7 +87,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{48558045-9126-4931-A216-6200F2846068}</td>
+			<td class="ObjectDetailsValue">{29196651-C0A9-423a-A86D-81D0C1AC72E0}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
@@ -98,6 +98,7 @@ function nameClassifier(name, separator)
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
 		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -107,15 +108,54 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA1132.htm">Select Accesing Service way</a><br />
+						<a href="EA1115.htm">Cancel Paymnet Transaction & Set Joureny status "Ready for Paymnet"</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">Failed</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow900" onclick="parent.toggleDiv('detailsDIVLinkFlow900', 'DetailsImageLinkFlow900')" />Details:
+							<div id="detailsDIVLinkFlow900" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA1117.htm">Confirm Journey</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">Success</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow901" onclick="parent.toggleDiv('detailsDIVLinkFlow901', 'DetailsImageLinkFlow901')" />Details:
+							<div id="detailsDIVLinkFlow901" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA1140.htm">Pay Invoice</a><br />
 						Activity &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow893" onclick="parent.toggleDiv('detailsDIVLinkFlow893', 'DetailsImageLinkFlow893')" />Details:
-							<div id="detailsDIVLinkFlow893" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow902" onclick="parent.toggleDiv('detailsDIVLinkFlow902', 'DetailsImageLinkFlow902')" />Details:
+							<div id="detailsDIVLinkFlow902" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
