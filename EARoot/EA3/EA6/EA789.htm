@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Dealer Declare Vehicle View</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA790.png" usemap="#EA790" border="0" />
+
+<MAP NAME="EA790">
+<area shape="rect" coords="98,920,260,955" href="EA884.htm" target="_self">
+<area shape="rect" coords="63,131,258,173" href="EA915.htm" target="_self">
+<area shape="rect" coords="692,1050,807,1105" href="../EA7/EA2/EA1557.htm" target="_self">
+<area shape="rect" coords="385,460,500,515" href="../EA7/EA2/EA1556.htm" target="_self">
+<area shape="rect" coords="274,729,408,764" href="EA945.htm" target="_self">
+<area shape="rect" coords="640,749,792,791" href="EA947.htm" target="_self">
+<area shape="rect" coords="608,665,814,705" href="EA943.htm" target="_self">
+<area shape="rect" coords="504,665,584,700" href="EA946.htm" target="_self">
+<area shape="rect" coords="349,665,473,700" href="EA944.htm" target="_self">
+<area shape="rect" coords="296,668,322,702" href="EA948.htm" target="_self">
+<area shape="rect" coords="743,995,763,1015" href="../EA3/EA517.htm" target="_self">
+<area shape="rect" coords="575,986,702,1021" href="EA880.htm" target="_self">
+<area shape="rect" coords="435,986,546,1021" href="../EA3/EA497.htm" target="_self">
+<area shape="rect" coords="288,986,407,1021" href="../EA3/EA447.htm" target="_self">
+<area shape="rect" coords="111,986,255,1021" href="../EA3/EA439.htm" target="_self">
+<area shape="rect" coords="94,837,268,872" href="../EA3/EA445.htm" target="_self">
+<area shape="rect" coords="155,770,195,776" href="../EA7/EA2/EA1555.htm" target="_self">
+<area shape="rect" coords="102,664,251,706" href="EA902.htm" target="_self">
+<area shape="rect" coords="160,574,200,580" href="../EA7/EA2/EA1554.htm" target="_self">
+<area shape="rect" coords="10,508,167,542" href="EA886.htm" target="_self">
+<area shape="rect" coords="207,508,346,538" href="EA843.htm" target="_self">
+<area shape="rect" coords="158,459,184,493" href="EA851.htm" target="_self">
+<area shape="rect" coords="103,404,234,439" href="EA895.htm" target="_self">
+<area shape="rect" coords="170,352,176,378" href="../EA7/EA2/EA1553.htm" target="_self">
+<area shape="rect" coords="20,306,141,341" href="EA912.htm" target="_self">
+<area shape="rect" coords="191,306,289,341" href="EA842.htm" target="_self">
+<area shape="rect" coords="154,271,180,305" href="../EA3/EA360.htm" target="_self">
+<area shape="rect" coords="52,214,272,253" href="EA878.htm" target="_self">
+<area shape="rect" coords="62,59,273,101" href="EA903.htm" target="_self">
+<area shape="rect" coords="157,10,177,30" href="../EA3/EA359.htm" target="_self">
+<area shape="rect" coords="264,622,952,797" href="EA839.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Dealer Declare Vehicle View : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">4/3/2023 1:58:09 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">4/3/2023 2:14:08 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">t.rawashdeh</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{D22003B7-25D4-41a2-9227-E3AA6DED6F5F}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

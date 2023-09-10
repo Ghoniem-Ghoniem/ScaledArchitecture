@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>MSD ERD V2</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA2274.png" usemap="#EA2274" border="0" />
+
+<MAP NAME="EA2274">
+<area shape="rect" coords="2135,39,2428,311" href="EA2329.htm" target="_self">
+<area shape="rect" coords="2143,947,2332,1017" href="EA2335.htm" target="_self">
+<area shape="rect" coords="305,1360,642,1562" href="../../../EA5/EA4/EA3592.htm" target="_self">
+<area shape="rect" coords="67,1053,293,1295" href="EA2331.htm" target="_self">
+<area shape="rect" coords="354,1051,628,1214" href="EA2367.htm" target="_self">
+<area shape="rect" coords="42,591,391,872" href="EA2328.htm" target="_self">
+<area shape="rect" coords="1696,376,1796,474" href="EA2311.htm" target="_self">
+<area shape="rect" coords="1419,872,1560,1139" href="EA2383.htm" target="_self">
+<area shape="rect" coords="651,928,741,1013" href="EA2299.htm" target="_self">
+<area shape="rect" coords="875,667,1203,1047" href="EA2334.htm" target="_self">
+<area shape="rect" coords="1378,1365,1505,1425" href="EA2298.htm" target="_self">
+<area shape="rect" coords="1837,292,1927,364" href="EA2290.htm" target="_self">
+<area shape="rect" coords="624,28,903,326" href="EA2330.htm" target="_self">
+<area shape="rect" coords="607,738,762,810" href="EA2384.htm" target="_self">
+<area shape="rect" coords="723,531,852,603" href="EA2388.htm" target="_self">
+<area shape="rect" coords="1762,488,2211,812" href="EA2385.htm" target="_self">
+<area shape="rect" coords="875,1102,1177,1456" href="EA2333.htm" target="_self">
+<area shape="rect" coords="100,371,240,443" href="EA2368.htm" target="_self">
+<area shape="rect" coords="62,35,291,299" href="EA2332.htm" target="_self">
+<area shape="rect" coords="1220,18,1580,628" href="EA2327.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">MSD ERD V2 : Entity Relationship diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/6/2023 7:56:25 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">9/9/2023 1:41:42 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">ahmad.aboalshamat</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{8C53F9FD-8459-470e-9A25-F16808D54AC1}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>13-Exemptions Use Case Model</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA2608.png" usemap="#EA2608" border="0" />
+
+<MAP NAME="EA2608">
+<area shape="rect" coords="878,640,983,710" href="EA2632.htm" target="_self">
+<area shape="rect" coords="878,565,983,635" href="EA2633.htm" target="_self">
+<area shape="rect" coords="180,528,285,598" href="../EA18/EA2649.htm" target="_self">
+<area shape="rect" coords="180,419,285,489" href="../EA18/EA2643.htm" target="_self">
+<area shape="rect" coords="180,304,285,374" href="../EA18/EA2642.htm" target="_self">
+<area shape="rect" coords="180,178,285,248" href="../EA18/EA2652.htm" target="_self">
+<area shape="rect" coords="180,649,285,719" href="../EA18/EA2640.htm" target="_self">
+<area shape="rect" coords="180,59,285,129" href="../EA18/EA2646.htm" target="_self">
+<area shape="rect" coords="878,177,983,247" href="EA2620.htm" target="_self">
+<area shape="rect" coords="878,257,983,327" href="EA2619.htm" target="_self">
+<area shape="rect" coords="618,34,723,104" href="EA2616.htm" target="_self">
+<area shape="rect" coords="878,335,983,405" href="EA2621.htm" target="_self">
+<area shape="rect" coords="878,96,983,166" href="EA2613.htm" target="_self">
+<area shape="rect" coords="878,489,983,559" href="EA2611.htm" target="_self">
+<area shape="rect" coords="878,414,983,484" href="EA2612.htm" target="_self">
+<area shape="rect" coords="373,528,478,598" href="EA2623.htm" target="_self">
+<area shape="rect" coords="373,419,478,489" href="EA2624.htm" target="_self">
+<area shape="rect" coords="373,304,478,374" href="EA2622.htm" target="_self">
+<area shape="rect" coords="618,645,723,715" href="EA2631.htm" target="_self">
+<area shape="rect" coords="618,174,723,244" href="EA2618.htm" target="_self">
+<area shape="rect" coords="618,415,723,485" href="EA2610.htm" target="_self">
+<area shape="rect" coords="1075,435,1180,505" href="EA2630.htm" target="_self">
+<area shape="rect" coords="1075,318,1180,388" href="EA2629.htm" target="_self">
+<area shape="rect" coords="1075,206,1180,276" href="EA2627.htm" target="_self">
+<area shape="rect" coords="1075,99,1180,169" href="EA2626.htm" target="_self">
+<area shape="rect" coords="1302,256,1347,346" href="../../EA1/EA86.htm" target="_self">
+<area shape="rect" coords="10,267,70,387" href="../../EA1/EA42.htm" target="_self">
+<area shape="rect" coords="1302,546,1347,636" href="../../EA1/EA61.htm" target="_self">
+<area shape="rect" coords="1075,565,1180,635" href="EA2634.htm" target="_self">
+<area shape="rect" coords="1036,54,1212,534" href="EA2628.htm" target="_self">
+<area shape="rect" coords="588,10,762,721" href="EA2614.htm" target="_self">
+<area shape="rect" coords="343,263,516,684" href="EA2625.htm" target="_self">
+<area shape="rect" coords="832,12,1247,723" href="EA2615.htm" target="_self">
+<area shape="rect" coords="140,12,542,726" href="EA2617.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">13-Exemptions Use Case Model : Use Case diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2/23/2023 12:00:00 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">8/30/2023 3:58:12 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Mahdi</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{61906BF7-EA42-4837-A14F-1769174FE7AA}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

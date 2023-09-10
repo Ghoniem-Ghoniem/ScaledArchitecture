@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Pay invocie with financial exemptions</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA3249.png" usemap="#EA3249" border="0" />
+
+<MAP NAME="EA3249">
+<area shape="rect" coords="313,548,423,597" href="EA3285.htm" target="_self">
+<area shape="rect" coords="12,787,120,834" href="EA3282.htm" target="_self">
+<area shape="rect" coords="178,784,282,836" href="EA3283.htm" target="_self">
+<area shape="rect" coords="11,667,121,716" href="EA3254.htm" target="_self">
+<area shape="rect" coords="178,665,282,717" href="EA3234.htm" target="_self">
+<area shape="rect" coords="217,556,243,590" href="EA3291.htm" target="_self">
+<area shape="rect" coords="175,425,285,480" href="EA3288.htm" target="_self">
+<area shape="rect" coords="355,323,381,357" href="EA3289.htm" target="_self">
+<area shape="rect" coords="173,96,283,154" href="EA3246.htm" target="_self">
+<area shape="rect" coords="220,903,240,923" href="EA3284.htm" target="_self">
+<area shape="rect" coords="314,423,422,481" href="EA3286.htm" target="_self">
+<area shape="rect" coords="217,222,243,256" href="EA3287.htm" target="_self">
+<area shape="rect" coords="10,424,122,481" href="EA3290.htm" target="_self">
+<area shape="rect" coords="220,10,240,30" href="EA3281.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Pay invocie with financial exemptions : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/6/2023 11:06:47 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">5/2/2023 2:37:15 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Mahdi</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{6A2FE2E0-DFA4-4c9f-A999-3A9CF4C8DE3D}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Check Eligibility Rules</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA2834.png" usemap="#EA2834" border="0" />
+
+<MAP NAME="EA2834">
+<area shape="rect" coords="681,250,815,325" href="EA2906.htm" target="_self">
+<area shape="rect" coords="932,277,952,297" href="EA2892.htm" target="_self">
+<area shape="rect" coords="876,128,1010,203" href="EA2904.htm" target="_self">
+<area shape="rect" coords="673,126,823,204" href="EA2903.htm" target="_self">
+<area shape="rect" coords="282,128,416,203" href="EA2900.htm" target="_self">
+<area shape="rect" coords="50,127,184,202" href="EA2897.htm" target="_self">
+<area shape="rect" coords="10,253,224,321" href="EA2895.htm" target="_self">
+<area shape="rect" coords="282,250,416,325" href="EA2894.htm" target="_self">
+<area shape="rect" coords="481,128,615,203" href="EA2839.htm" target="_self">
+<area shape="rect" coords="874,10,1008,85" href="EA2835.htm" target="_self">
+<area shape="rect" coords="674,12,822,83" href="EA2837.htm" target="_self">
+<area shape="rect" coords="473,250,623,325" href="EA2902.htm" target="_self">
+<area shape="rect" coords="476,10,620,84" href="EA2896.htm" target="_self">
+<area shape="rect" coords="282,10,416,85" href="EA2901.htm" target="_self">
+<area shape="rect" coords="107,37,127,57" href="EA2893.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Check Eligibility Rules : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">6/14/2023 1:29:37 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">6/22/2023 4:19:55 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">mahdi</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{122A5550-EE61-4e3d-B354-8BC24A9DF706}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
