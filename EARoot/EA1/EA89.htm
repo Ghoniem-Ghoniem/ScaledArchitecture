@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>System Admin</title>
+<title>Sync Manager</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("System Admin", " : "))</script>  : Public   Actor</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Sync Manager", " : "))</script>  : Public   Actor</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">10/7/2021 9:32:51 PM</td>
+			<td width="85%" class="ObjectDetailsValue">1/5/2023 12:25:18 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">12/23/2022 9:57:56 PM</td>
+			<td class="ObjectDetailsValue">4/14/2023 10:24:16 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">Yousif Ennwa</td>
+			<td class="ObjectDetailsValue">tabuamireh</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,18 +87,80 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{8F526AF6-6155-49f4-B0EA-5C33943E0249}</td>
+			<td class="ObjectDetailsValue">{D5C1C545-DD90-45a5-A981-7FA8BBA65EE7}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA3/EA9/EA1627.htm">Sync Model</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA3/EA19/EA2666.htm">Sync Sequence Model</a>, <a href="../EA3/EA17/EA2610.htm">13-Exemptions Use Case Model</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA3/EA19/EA2713.htm">Sync Configuration</a></td>
+					<td width="50%" class="TableRow" valign="top">Load Sync Config</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage151" onclick="parent.toggleDiv('detailsDIVMessage151', 'DetailsImageMessage151')" />Details:
+							<div id="detailsDIVMessage151" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA3/EA19/EA2717.htm">Sync Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">Insert Sync Record</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage152" onclick="parent.toggleDiv('detailsDIVMessage152', 'DetailsImageMessage152')" />Details:
+							<div id="detailsDIVMessage152" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA3/EA19/EA2713.htm">Sync Configuration</a></td>
+					<td width="50%" class="TableRow" valign="top">Sync Config</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage153" onclick="parent.toggleDiv('detailsDIVMessage153', 'DetailsImageMessage153')" />Details:
+							<div id="detailsDIVMessage153" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="LinksTable">
 			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -109,49 +171,28 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA85.htm">Super System Admin</a></td>
-					<td width="10%" class="TableRow" valign="top">Actor</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA9/EA1643.htm">Create Sync Metadata</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA17/EA2629.htm">Sync Electronic Signatures</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA9/EA1642.htm">Create Healthy checker Interval</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA17/EA2630.htm">Sync Fees Categories Defined Exemptions</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA9/EA1651.htm">Track Sync Status</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA17/EA2632.htm">Sync POD vehicles</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA9/EA1644.htm">Force Sync Model Execution for specific object(s)</a></td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA9/EA1650.htm">Track Sync Performance</a></td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA9/EA1647.htm">Provide Corrective actions</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA17/EA2633.htm">Sync Services Defined Exemptions</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
