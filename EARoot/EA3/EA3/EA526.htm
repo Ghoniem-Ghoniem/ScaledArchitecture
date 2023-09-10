@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>IAM Backend System</title>
+<title>Frontend App</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,11 +34,11 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("IAM Backend System", " : "))</script>  : Public   Sequence</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Frontend App", " : "))</script>  : Public   Sequence</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">5/23/2023 10:26:20 PM</td>
+			<td width="85%" class="ObjectDetailsValue">5/23/2023 9:55:18 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{105D520B-6127-44aa-B4E3-E6699F9E513F}</td>
+			<td class="ObjectDetailsValue">{528F1FC1-5F16-4b96-8B9D-75C60E95DCAF}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA340.htm">IAM Auth</a></td>
+			<td class="ObjectDetailsValue"><a href="EA333.htm">Auth Sequence Diagram</a></td>
 		</tr>
 	</table>
 	
@@ -107,13 +107,16 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA605.htm">UMS Backend</a></td>
-					<td width="50%" class="TableRow" valign="top">Return Generated IAM Token</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA545.htm">Micro Gateway
+
+(Auth Controller)
+(Pulic Resource)</a></td>
+					<td width="50%" class="TableRow" valign="top">POST  /login</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage318" onclick="parent.toggleDiv('detailsDIVMessage318', 'DetailsImageMessage318')" />Details:
-							<div id="detailsDIVMessage318" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage320" onclick="parent.toggleDiv('detailsDIVMessage320', 'DetailsImageMessage320')" />Details:
+							<div id="detailsDIVMessage320" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -121,13 +124,14 @@ function nameClassifier(name, separator)
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA605.htm">UMS Backend</a></td>
-					<td width="50%" class="TableRow" valign="top">Get User Info in JSON format</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA567.htm">Product Microservice
+(Protected Resource)</a></td>
+					<td width="50%" class="TableRow" valign="top">GET   /product</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage319" onclick="parent.toggleDiv('detailsDIVMessage319', 'DetailsImageMessage319')" />Details:
-							<div id="detailsDIVMessage319" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage321" onclick="parent.toggleDiv('detailsDIVMessage321', 'DetailsImageMessage321')" />Details:
+							<div id="detailsDIVMessage321" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -144,13 +148,16 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA605.htm">UMS Backend</a></td>
-					<td width="50%" class="TableRow" valign="top">POST   /obtainAccessToken</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA545.htm">Micro Gateway
+
+(Auth Controller)
+(Pulic Resource)</a></td>
+					<td width="50%" class="TableRow" valign="top">JWT Token: xxxyyyzzz</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage320" onclick="parent.toggleDiv('detailsDIVMessage320', 'DetailsImageMessage320')" />Details:
-							<div id="detailsDIVMessage320" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage322" onclick="parent.toggleDiv('detailsDIVMessage322', 'DetailsImageMessage322')" />Details:
+							<div id="detailsDIVMessage322" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -158,13 +165,14 @@ function nameClassifier(name, separator)
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA605.htm">UMS Backend</a></td>
-					<td width="50%" class="TableRow" valign="top">POST   /getUserInfo</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA567.htm">Product Microservice
+(Protected Resource)</a></td>
+					<td width="50%" class="TableRow" valign="top">Forward response {"id":1, "name":"product"}</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage321" onclick="parent.toggleDiv('detailsDIVMessage321', 'DetailsImageMessage321')" />Details:
-							<div id="detailsDIVMessage321" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage323" onclick="parent.toggleDiv('detailsDIVMessage323', 'DetailsImageMessage323')" />Details:
+							<div id="detailsDIVMessage323" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
