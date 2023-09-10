@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Business Process Server</title>
+<title>Authorization Server</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Business Process Server", " : "))</script>  : Public   Sequence</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Authorization Server", " : "))</script>  : Public   Sequence</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2/5/2023 7:06:47 PM</td>
+			<td width="85%" class="ObjectDetailsValue">5/23/2023 9:56:53 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">4/12/2023 10:35:23 AM</td>
+			<td class="ObjectDetailsValue">6/6/2023 12:23:56 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2C1C6D8B-34A4-4a39-B0CE-E05C5BA23F39}</td>
+			<td class="ObjectDetailsValue">{2D6993F3-2C37-4153-BA18-2AA6E3B2AED6}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA338.htm">Busniess Process Sequence</a></td>
+			<td class="ObjectDetailsValue"><a href="EA333.htm">Auth Sequence Diagram</a></td>
 		</tr>
 	</table>
 	
@@ -107,27 +107,32 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA437.htm">Business Process Server</a></td>
-					<td width="50%" class="TableRow" valign="top">Process Internal Actions</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage281" onclick="parent.toggleDiv('detailsDIVMessage281', 'DetailsImageMessage281')" />Details:
-							<div id="detailsDIVMessage281" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA88.htm">System</a></td>
-					<td width="50%" class="TableRow" valign="top">Link Process and return Success</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA545.htm">Micro Gateway
+
+(Auth Controller)
+(Pulic Resource)</a></td>
+					<td width="50%" class="TableRow" valign="top">JWT Token: xxxyyyzzz</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
 						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage282" onclick="parent.toggleDiv('detailsDIVMessage282', 'DetailsImageMessage282')" />Details:
 							<div id="detailsDIVMessage282" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Json web token
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA567.htm">Product Microservice
+(Protected Resource)</a></td>
+					<td width="50%" class="TableRow" valign="top">Return Response to the Resource</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage283" onclick="parent.toggleDiv('detailsDIVMessage283', 'DetailsImageMessage283')" />Details:
+							<div id="detailsDIVMessage283" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -144,13 +149,16 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA88.htm">System</a></td>
-					<td width="50%" class="TableRow" valign="top">Inititaed by System</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA545.htm">Micro Gateway
+
+(Auth Controller)
+(Pulic Resource)</a></td>
+					<td width="50%" class="TableRow" valign="top">Get Access Token</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage283" onclick="parent.toggleDiv('detailsDIVMessage283', 'DetailsImageMessage283')" />Details:
-							<div id="detailsDIVMessage283" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage284" onclick="parent.toggleDiv('detailsDIVMessage284', 'DetailsImageMessage284')" />Details:
+							<div id="detailsDIVMessage284" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -158,13 +166,14 @@ function nameClassifier(name, separator)
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA437.htm">Business Process Server</a></td>
-					<td width="50%" class="TableRow" valign="top">Process Internal Actions</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA567.htm">Product Microservice
+(Protected Resource)</a></td>
+					<td width="50%" class="TableRow" valign="top">Validate JWT</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage284" onclick="parent.toggleDiv('detailsDIVMessage284', 'DetailsImageMessage284')" />Details:
-							<div id="detailsDIVMessage284" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage285" onclick="parent.toggleDiv('detailsDIVMessage285', 'DetailsImageMessage285')" />Details:
+							<div id="detailsDIVMessage285" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
