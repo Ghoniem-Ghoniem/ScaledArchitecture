@@ -2,9 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Notification
-Log
-Job</title>
+<title>DX Notification
+OtpManager</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -36,15 +35,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Notification<br />Log<br />Job", " : "))</script>  : Public   Sequence</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DX Notification<br />OtpManager", " : "))</script>  : Public   Sequence</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2/5/2023 2:11:27 AM</td>
+			<td width="85%" class="ObjectDetailsValue">2/14/2023 5:56:35 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">2/5/2023 2:23:48 AM</td>
+			<td class="ObjectDetailsValue">2/14/2023 5:58:37 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -89,15 +88,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{37F24DF7-AB69-48a0-86D8-0812BBA50328}</td>
+			<td class="ObjectDetailsValue">{B303CEE0-2FC9-4e54-A27C-FF91F0DA841C}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA4249.htm">Send Notification Activity</a></td>
+			<td class="ObjectDetailsValue"><a href="EA4251.htm">Otp Verification Activity</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Notification Sender Job is responsible to load, collect and send all DRAFT Notifications</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
@@ -110,28 +108,13 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4262.htm">Notification
-Schema</a></td>
-					<td width="50%" class="TableRow" valign="top">Load Draft Notifications</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4273.htm">OtpInformation Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">OTP Generation Eligibility</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7455" onclick="parent.toggleDiv('detailsDIVMessage7455', 'DetailsImageMessage7455')" />Details:
-							<div id="detailsDIVMessage7455" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							Load all "<b>Ready To Send (DRAFT)</b>" notification to be sent.
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4255.htm">Etisalat (TARS)</a></td>
-					<td width="50%" class="TableRow" valign="top">Send Notification</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7456" onclick="parent.toggleDiv('detailsDIVMessage7456', 'DetailsImageMessage7456')" />Details:
-							<div id="detailsDIVMessage7456" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7558" onclick="parent.toggleDiv('detailsDIVMessage7558', 'DetailsImageMessage7558')" />Details:
+							<div id="detailsDIVMessage7558" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -139,22 +122,113 @@ Schema</a></td>
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4262.htm">Notification
-Schema</a></td>
-					<td width="50%" class="TableRow" valign="top">Reflect new Status</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4273.htm">OtpInformation Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">Generate OTP</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7457" onclick="parent.toggleDiv('detailsDIVMessage7457', 'DetailsImageMessage7457')" />Details:
-							<div id="detailsDIVMessage7457" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7559" onclick="parent.toggleDiv('detailsDIVMessage7559', 'DetailsImageMessage7559')" />Details:
+							<div id="detailsDIVMessage7559" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
-							Reflect the new Status for the notification based on send operation status returned by provider (TARS).
-
-Status values : 
-<ol>
-	<li>SUCCESS</li>
-	<li>FAILED</li>
-</ol>
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4262.htm">Etisalat (TARS)</a></td>
+					<td width="50%" class="TableRow" valign="top">Send OTP Message</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7560" onclick="parent.toggleDiv('detailsDIVMessage7560', 'DetailsImageMessage7560')" />Details:
+							<div id="detailsDIVMessage7560" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4273.htm">OtpInformation Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">Save OTP Information</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7561" onclick="parent.toggleDiv('detailsDIVMessage7561', 'DetailsImageMessage7561')" />Details:
+							<div id="detailsDIVMessage7561" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4269.htm">Notification Log Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">Save OTP Message to Notification</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7562" onclick="parent.toggleDiv('detailsDIVMessage7562', 'DetailsImageMessage7562')" />Details:
+							<div id="detailsDIVMessage7562" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4259.htm">DX Journey</a></td>
+					<td width="50%" class="TableRow" valign="top">Return Validation Error Message</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7563" onclick="parent.toggleDiv('detailsDIVMessage7563', 'DetailsImageMessage7563')" />Details:
+							<div id="detailsDIVMessage7563" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Asynchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4259.htm">DX Journey</a></td>
+					<td width="50%" class="TableRow" valign="top">Return OTP Informatiopn to Jounrey</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7564" onclick="parent.toggleDiv('detailsDIVMessage7564', 'DetailsImageMessage7564')" />Details:
+							<div id="detailsDIVMessage7564" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4273.htm">OtpInformation Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">Verify If passed value matched with generated OTP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7565" onclick="parent.toggleDiv('detailsDIVMessage7565', 'DetailsImageMessage7565')" />Details:
+							<div id="detailsDIVMessage7565" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4259.htm">DX Journey</a></td>
+					<td width="50%" class="TableRow" valign="top">Return OTP Verification Status to Journey</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7566" onclick="parent.toggleDiv('detailsDIVMessage7566', 'DetailsImageMessage7566')" />Details:
+							<div id="detailsDIVMessage7566" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
 							</div>
 						</div>
 					</td>
@@ -169,14 +243,13 @@ Status values :
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4262.htm">Notification
-Schema</a></td>
-					<td width="50%" class="TableRow" valign="top">Return Draft Notification</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4259.htm">DX Journey</a></td>
+					<td width="50%" class="TableRow" valign="top">Generate OTP</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7458" onclick="parent.toggleDiv('detailsDIVMessage7458', 'DetailsImageMessage7458')" />Details:
-							<div id="detailsDIVMessage7458" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7567" onclick="parent.toggleDiv('detailsDIVMessage7567', 'DetailsImageMessage7567')" />Details:
+							<div id="detailsDIVMessage7567" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -184,13 +257,69 @@ Schema</a></td>
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4255.htm">Etisalat (TARS)</a></td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4273.htm">OtpInformation Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">Check Generate OTP Eligibility</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7568" onclick="parent.toggleDiv('detailsDIVMessage7568', 'DetailsImageMessage7568')" />Details:
+							<div id="detailsDIVMessage7568" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4273.htm">OtpInformation Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">Return new Generated OTP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7569" onclick="parent.toggleDiv('detailsDIVMessage7569', 'DetailsImageMessage7569')" />Details:
+							<div id="detailsDIVMessage7569" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4262.htm">Etisalat (TARS)</a></td>
 					<td width="50%" class="TableRow" valign="top">Return Send Status</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7459" onclick="parent.toggleDiv('detailsDIVMessage7459', 'DetailsImageMessage7459')" />Details:
-							<div id="detailsDIVMessage7459" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7570" onclick="parent.toggleDiv('detailsDIVMessage7570', 'DetailsImageMessage7570')" />Details:
+							<div id="detailsDIVMessage7570" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4259.htm">DX Journey</a></td>
+					<td width="50%" class="TableRow" valign="top">Verify OTP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7571" onclick="parent.toggleDiv('detailsDIVMessage7571', 'DetailsImageMessage7571')" />Details:
+							<div id="detailsDIVMessage7571" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4273.htm">OtpInformation Schema</a></td>
+					<td width="50%" class="TableRow" valign="top">Return OTP Verification Status</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7572" onclick="parent.toggleDiv('detailsDIVMessage7572', 'DetailsImageMessage7572')" />Details:
+							<div id="detailsDIVMessage7572" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>

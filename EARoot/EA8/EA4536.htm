@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Sync Model</title>
+<title>Notification Service</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Sync Model", " : "))</script>  : Public   Component</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Notification Service", " : "))</script>  : Public   Component</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">12/21/2022 8:28:45 PM</td>
+			<td width="85%" class="ObjectDetailsValue">10/24/2021 7:20:03 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/25/2023 11:16:49 AM</td>
+			<td class="ObjectDetailsValue">8/6/2023 3:42:59 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,22 +87,54 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{7650F59B-67F8-4987-8D70-28AC7AB427D5}</td>
+			<td class="ObjectDetailsValue">{6C98AD6E-4804-4622-8519-69C819F29849}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA4313.htm">Appplication Server</a></td>
+			<td class="ObjectDetailsValue"><a href="EA4319.htm">Appplication Server</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">As Solution Architect, &lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to prepare solution to sync the transactions/products across both applications in real-time notification and vise-versa system updates although both applications has different data model.&lt;br /&gt;&lt;/p&gt;</div>
+	<div class="ObjectDetailsNotes">As Solution Architect, &lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to prepare solution to generate and send &lt;b&gt;SMS &lt;/b&gt;and &lt;b&gt;Email &lt;/b&gt;notifications based on specific business trigger using predefined templates.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Building notification module can be designed in two different approaches:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ol&gt;&lt;li&gt;Each micro-service can handle it&#39;s own notification logic, which will handle the generation, sending and orchestration for all notification process. in this case, the notifications process and data will be distributed in all micro-services and it will lose the&lt;b&gt; Segregation of Duties (SOD)&lt;/b&gt; concept, and it is hard to be maintainable and adding any new features. &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ol&gt;&lt;li&gt;A dedicated Notification micro-service that can handle all Notification templates generations and sending for all other micro-services, in that case we can build all notifications logic once in this micro-service. In this case we will guarantee that all features and enhancements applied once with no gaps.we can also build a dedicated front-end over this micro-service for template monitoring and modification. &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;From above, we will go with the second approach as it&#39;s clearly will fulfill our requirement.&lt;br /&gt;&lt;/p&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('Requirements');" id="RequirementsTitle">Requirements</li>
-			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
-			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA4509.htm">Bit.ly Shorner</a><br />
+						Component &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink7756" onclick="parent.toggleDiv('detailsDIVLink7756','DetailsImageLink7756')" />Details:
+							<div id="detailsDIVLink7756" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="RequirementsTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -114,7 +146,7 @@ function nameClassifier(name, separator)
 					<td width="10%" class="TableHeading">Stability</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">01- Data Sync Model</td>
+					<td width="60%" class="TableRow">FR-01 : Realtime Processing.</td>
 					<td width="10%" class="TableRow">Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -123,16 +155,16 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7642" onclick="parent.toggleDiv('detailsDIVRequirement7642','DetailsImageRequirement7642')" />Details:
-							<div id="detailsDIVRequirement7642" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I need to assure the parallel run of both applications E-Traffic and DX and maintain the data synchronization, so we can perform transactions from both solutions, synchronization is required due to:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Parallel Run&lt;/b&gt;: both applications are up and running at the same time &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;Lock User Products&lt;/b&gt;: due to parallel running, we need to guarantee that both systems block each other if the system is interfering with the same product at the same time &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/p&gt;</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7757" onclick="parent.toggleDiv('detailsDIVRequirement7757','DetailsImageRequirement7757')" />Details:
+							<div id="detailsDIVRequirement7757" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Software which giving the ability to push a notification message in real-time with no latency in DX journeys in asynchronous way.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This achieved this by choosing&lt;b&gt; Apache Kafka&lt;/b&gt; as its applying the &lt;b&gt;Asynchronous &lt;/b&gt;model with assure the fulfillment of our this requirement.&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">02- Realtime update</td>
+					<td width="60%" class="TableRow">FR-02 : Monitoring Model.</td>
 					<td width="10%" class="TableRow">Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -141,16 +173,16 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7643" onclick="parent.toggleDiv('detailsDIVRequirement7643','DetailsImageRequirement7643')" />Details:
-							<div id="detailsDIVRequirement7643" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I have to assure a real-time update for running transactions, so I can have a smooth journeys/transactions with no delay.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;We chose &lt;b&gt;Apache Kafka&lt;/b&gt; as its have a plenty of capabilities that will assure the fulfillment of our this requirement, such as&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Real-time Data Processing&lt;/b&gt;: Kafka process data/messages in pipelines consisting of multiple stages/phases, where message input is consumed from Kafka topics and then aggregated, transformed into new topics for further consumption, or follow consumer login to persist the message. &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;Data Persistency&lt;/b&gt;: the data/messages transferred between two solutions can be persisted for 7 days &lt;i&gt;&lt;u&gt;(default duration and can be changed&lt;/u&gt;&lt;/i&gt;) on (n) replicas (default is 3 replicas).&#160;&#160; &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;Scalable&lt;/b&gt;: we can scale the number of partitions to handle the load of messages.&#160;&#160; &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;Handle Stream Processing&lt;/b&gt;: we can send batch of messages which will lead to push more messages in less time.&#160;&#160; &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/p&gt;</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7758" onclick="parent.toggleDiv('detailsDIVRequirement7758','DetailsImageRequirement7758')" />Details:
+							<div id="detailsDIVRequirement7758" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide front-end application for monitoring all pushed notifications with proper classification and visualize the trends of daily processes.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This model will be grouped&#160; by templates,client DX application and time interval as mandatory attributes, then we can search more specific by the pre-defined business keys in each notification.&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">03-Seamless integration, regardless the business/datamodels variance</td>
+					<td width="60%" class="TableRow">FR-03 : Logging Model</td>
 					<td width="10%" class="TableRow">Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -159,16 +191,16 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7644" onclick="parent.toggleDiv('detailsDIVRequirement7644','DetailsImageRequirement7644')" />Details:
-							<div id="detailsDIVRequirement7644" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I need to guarantee data consistency between both E-Traffic and DX Applications and assure data synchronization between both applications with real-time updates although the variance between both data models, so I can run both applications together till full sunset of the legacy E-Traffic Application.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;In that solution, we used &lt;b&gt;Apache Kafka&lt;/b&gt; as (&lt;i&gt;&lt;u&gt;a message broker&lt;/u&gt;&lt;/i&gt;) to handle the communication between both applications bi-directional, so each communication channel has two topics to handle both direction of synchronization, sync topic, and callback topic &lt;i&gt;&lt;u&gt;(all topics for synchronization were mentioned in KAFKA component model&lt;/u&gt;&lt;/i&gt;), in comparison to &lt;b&gt;ETL&lt;/b&gt; we chose this approached due to different data model between both applications&lt;br /&gt;&lt;/p&gt;</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7759" onclick="parent.toggleDiv('detailsDIVRequirement7759','DetailsImageRequirement7759')" />Details:
+							<div id="detailsDIVRequirement7759" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a dynamic logging mechanism for all &lt;b&gt;notification message/status&lt;/b&gt;, we build a custom logic to log all notification actions status with max efficiency in retrieving the notification history using notification template.&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">04- Retrial Model</td>
+					<td width="60%" class="TableRow">FR-04 : Configurability</td>
 					<td width="10%" class="TableRow">Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -177,16 +209,16 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7645" onclick="parent.toggleDiv('detailsDIVRequirement7645','DetailsImageRequirement7645')" />Details:
-							<div id="detailsDIVRequirement7645" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a robust re-trial mechanism for failed sync transactions/events, we build a configurable re-trial engine with initial (5 trials).&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;We propose to re-initiate the sync state of the failed transaction to the last stable state and increase the trials by 1.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Then we will build a monitoring screens to alert the exceeded maximum trials with failure reason.&lt;br /&gt;&lt;/p&gt;</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7760" onclick="parent.toggleDiv('detailsDIVRequirement7760','DetailsImageRequirement7760')" />Details:
+							<div id="detailsDIVRequirement7760" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Configurable Software which handle the sending of all DX system notification using its defined configured templates.&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">05- Logging Model</td>
+					<td width="60%" class="TableRow">FR-05 : Administration Model</td>
 					<td width="10%" class="TableRow">Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -195,16 +227,16 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7646" onclick="parent.toggleDiv('detailsDIVRequirement7646','DetailsImageRequirement7646')" />Details:
-							<div id="detailsDIVRequirement7646" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a dynamic logging mechanism for all sync states/actions, we build logging engine grouped by product to assure the max efficiency in retrieving the sync history. &lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;We proposed to log all action occurred on sync record along with business key such as (Emirate Id, Chassis Number) to facilitate the inquiry for these sync events.&#160;&#160; &lt;br /&gt;&lt;/p&gt;</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7761" onclick="parent.toggleDiv('detailsDIVRequirement7761','DetailsImageRequirement7761')" />Details:
+							<div id="detailsDIVRequirement7761" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide front-end application for maintaining, re-pushing and monitoring (Administration) the notification messages and related templates and visualize the trends of daily processes.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This model will be grouped by system,template and time interval as mandatory attributes, then we can search more specific by the pre-defined notification template keys.&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">06- Monitoring Model</td>
+					<td width="60%" class="TableRow">FR-06 : Retrial Model</td>
 					<td width="10%" class="TableRow">Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -213,17 +245,17 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7647" onclick="parent.toggleDiv('detailsDIVRequirement7647','DetailsImageRequirement7647')" />Details:
-							<div id="detailsDIVRequirement7647" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide front-end application for monitoring the sync transactions and visualize the trends of daily processes.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;This model will be grouped&#160; by products and time interval as mandatory attributes, then we can search more specific by the pre-defined business keys in each product.&lt;br /&gt;&lt;/p&gt;</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7762" onclick="parent.toggleDiv('detailsDIVRequirement7762','DetailsImageRequirement7762')" />Details:
+							<div id="detailsDIVRequirement7762" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a robust re-trial mechanism for failed sending notification, we build a configurable re-trial engine with initial (5 trials).&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">NFR-01 Maintainability</td>
-					<td width="10%" class="TableRow">NF</td>
+					<td width="60%" class="TableRow">NFR01: Securing the application from common attacks</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -231,85 +263,17 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7648" onclick="parent.toggleDiv('detailsDIVRequirement7648','DetailsImageRequirement7648')" />Details:
-							<div id="detailsDIVRequirement7648" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">NFR-02 : Fault Tolerance</td>
-					<td width="10%" class="TableRow">NF</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7649" onclick="parent.toggleDiv('detailsDIVRequirement7649','DetailsImageRequirement7649')" />Details:
-							<div id="detailsDIVRequirement7649" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">NFR-03 : Recoverability</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7650" onclick="parent.toggleDiv('detailsDIVRequirement7650','DetailsImageRequirement7650')" />Details:
-							<div id="detailsDIVRequirement7650" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">NFR-04 : Configurability</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7651" onclick="parent.toggleDiv('detailsDIVRequirement7651','DetailsImageRequirement7651')" />Details:
-							<div id="detailsDIVRequirement7651" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="60%" class="TableRow">NFR-05 : Response time</td>
-					<td width="10%" class="TableRow">Functional</td>
-					<td width="10%" class="TableRow">Proposed</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Medium</td>
-					<td width="10%" class="TableRow">Moderate</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7652" onclick="parent.toggleDiv('detailsDIVRequirement7652','DetailsImageRequirement7652')" />Details:
-							<div id="detailsDIVRequirement7652" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Add in story format, the following items:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Caching, Indexes, async calls, ...&lt;br /&gt;&lt;/p&gt;</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7763" onclick="parent.toggleDiv('detailsDIVRequirement7763','DetailsImageRequirement7763')" />Details:
+							<div id="detailsDIVRequirement7763" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Software which being secured from any attack.&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">NFR-06 : Cycletime</td>
-					<td width="10%" class="TableRow">Functional</td>
+					<td width="60%" class="TableRow">NFR02: Maintainability.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -317,17 +281,17 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7653" onclick="parent.toggleDiv('detailsDIVRequirement7653','DetailsImageRequirement7653')" />Details:
-							<div id="detailsDIVRequirement7653" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Will be valid to finish the journey, to be used as a factor for:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;1. Digital transformation&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2. Over engineering&lt;br /&gt;&lt;/p&gt;&lt;p&gt;3. Fit for use&lt;br /&gt;&lt;/p&gt;</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7764" onclick="parent.toggleDiv('detailsDIVRequirement7764','DetailsImageRequirement7764')" />Details:
+							<div id="detailsDIVRequirement7764" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a system which should be maintainable at anytime with short time line and no complexity.&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">NFR-07 : Security</td>
-					<td width="10%" class="TableRow">NF</td>
+					<td width="60%" class="TableRow">NFR03: Fault Tolerance.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -335,49 +299,63 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7654" onclick="parent.toggleDiv('detailsDIVRequirement7654','DetailsImageRequirement7654')" />Details:
-							<div id="detailsDIVRequirement7654" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">How to secure the model</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="ConstraintsTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-			  	<tr>
-					<td width="80%" class="TableHeading">Constraint</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Status</td>
-				</tr>
-				<tr>
-					<td width="80%" class="TableRow">01-Realtime update</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints7655" onclick="parent.toggleDiv('detailsDIVConstraints7655','DetailsImageConstraints7655')" />Details:
-							<div id="detailsDIVConstraints7655" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Kindly visit requirements section for detailed implementation.</div>
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7765" onclick="parent.toggleDiv('detailsDIVRequirement7765','DetailsImageRequirement7765')" />Details:
+							<div id="detailsDIVRequirement7765" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Software which continue operating without interruption when one or more of its components fail, this achieved by using a fallback in case of failure of a micro-service.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Fault tolerance can be achieved with the help of a circuit breaker. and we will use &lt;b&gt;Hystrix &lt;/b&gt;Fault Tolerance to achieve this functionality, which fulfil our requirement. &lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="80%" class="TableRow">02-Different database/schema structure</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
+					<td width="60%" class="TableRow">NFR04: Recoverability.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
 				</tr>
 				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints7656" onclick="parent.toggleDiv('detailsDIVConstraints7656','DetailsImageConstraints7656')" />Details:
-							<div id="detailsDIVConstraints7656" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Kindly visit requirements section for detailed implementation.</div>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7766" onclick="parent.toggleDiv('detailsDIVRequirement7766','DetailsImageRequirement7766')" />Details:
+							<div id="detailsDIVRequirement7766" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a Software which being Receivable at anytime in very fast way.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR05: Availability.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7767" onclick="parent.toggleDiv('detailsDIVRequirement7767','DetailsImageRequirement7767')" />Details:
+							<div id="detailsDIVRequirement7767" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a system with high availability at anytime to handle any new messages for sending.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">NFR06: Reliablility.</td>
+					<td width="10%" class="TableRow">Non-Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement7768" onclick="parent.toggleDiv('detailsDIVRequirement7768','DetailsImageRequirement7768')" />Details:
+							<div id="detailsDIVRequirement7768" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">As a Software provider,&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;I want to provide a system which should be reliable at anytime to handle any new messages for sending in&lt;b&gt; proper way&lt;/b&gt;.&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
@@ -399,26 +377,7 @@ function nameClassifier(name, separator)
 
 
 			</table>
-		</div>		<div class="ItemBody" id="LinksTable">
-			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="30%" class="TableHeading">Object</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Connection</td>
-					<td width="10%" class="TableHeading">Direction</td>
-					<td width="40%" class="TableHeading">Notes</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA4527.htm">KAFKA (EDA)</a></td>
-					<td width="10%" class="TableRow" valign="top">Component</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-
-			</table>
-		</div>
-	</div>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

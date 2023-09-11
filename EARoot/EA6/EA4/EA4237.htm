@@ -2,8 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Locking Microservice
-EventsManager</title>
+<title>FAILED_TO_LOCKED</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -35,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Locking Microservice<br />EventsManager", " : "))</script>  : Public   Component</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("FAILED_TO_LOCKED", " : "))</script>  : Public   State</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2/22/2023 11:51:24 AM</td>
+			<td width="85%" class="ObjectDetailsValue">2/22/2023 5:02:58 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">2/22/2023 11:52:40 AM</td>
+			<td class="ObjectDetailsValue">2/22/2023 5:03:03 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -88,198 +87,43 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{61026AF3-011E-4108-91BE-DA34AB7D8946}</td>
+			<td class="ObjectDetailsValue">{EA3E11A6-25EB-47e6-8C25-E18CFF5B40DB}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA4215.htm">Locking Sequence</a></td>
+			<td class="ObjectDetailsValue"><a href="EA4223.htm">ProductLock StateMachine</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
-			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
+		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4238.htm">Locking Microservice
-ProductLock</a></td>
-					<td width="50%" class="TableRow" valign="top">Check If product already locked</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7401" onclick="parent.toggleDiv('detailsDIVMessage7401', 'DetailsImageMessage7401')" />Details:
-							<div id="detailsDIVMessage7401" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							Check If product already locked by other Application
-							</div>
-						</div>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA4234.htm">ACTIVE</a><br />
+						State &nbsp;
 					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4239.htm">Locking Microservice
-ServiceLockConfiguration</a></td>
-					<td width="50%" class="TableRow" valign="top">Get ACTIVE locking configuration for Journey / Product</td>
-				</tr>
-		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7402" onclick="parent.toggleDiv('detailsDIVMessage7402', 'DetailsImageMessage7402')" />Details:
-							<div id="detailsDIVMessage7402" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow7528" onclick="parent.toggleDiv('detailsDIVLinkFlow7528', 'DetailsImageLinkFlow7528')" />Details:
+							<div id="detailsDIVLinkFlow7528" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4238.htm">Locking Microservice
-ProductLock</a></td>
-					<td width="50%" class="TableRow" valign="top">Insert Product Lock Record</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7403" onclick="parent.toggleDiv('detailsDIVMessage7403', 'DetailsImageMessage7403')" />Details:
-							<div id="detailsDIVMessage7403" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							Insert Product Lock Record means that this product is locked
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA57.htm">DX Microservices</a></td>
-					<td width="50%" class="TableRow" valign="top">Return Success Message</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7404" onclick="parent.toggleDiv('detailsDIVMessage7404', 'DetailsImageMessage7404')" />Details:
-							<div id="detailsDIVMessage7404" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA57.htm">DX Microservices</a></td>
-					<td width="50%" class="TableRow" valign="top">Return Error Message</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7405" onclick="parent.toggleDiv('detailsDIVMessage7405', 'DetailsImageMessage7405')" />Details:
-							<div id="detailsDIVMessage7405" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA57.htm">DX Microservices</a></td>
-					<td width="50%" class="TableRow" valign="top">Return Error Message</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7406" onclick="parent.toggleDiv('detailsDIVMessage7406', 'DetailsImageMessage7406')" />Details:
-							<div id="detailsDIVMessage7406" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
-		<div class="ItemBody" id="MessagesFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA57.htm">DX Microservices</a></td>
-					<td width="50%" class="TableRow" valign="top">Lock Product</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7407" onclick="parent.toggleDiv('detailsDIVMessage7407', 'DetailsImageMessage7407')" />Details:
-							<div id="detailsDIVMessage7407" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4238.htm">Locking Microservice
-ProductLock</a></td>
-					<td width="50%" class="TableRow" valign="top">Return If product is already locked</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7408" onclick="parent.toggleDiv('detailsDIVMessage7408', 'DetailsImageMessage7408')" />Details:
-							<div id="detailsDIVMessage7408" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4239.htm">Locking Microservice
-ServiceLockConfiguration</a></td>
-					<td width="50%" class="TableRow" valign="top">Return Configuration</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7409" onclick="parent.toggleDiv('detailsDIVMessage7409', 'DetailsImageMessage7409')" />Details:
-							<div id="detailsDIVMessage7409" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4238.htm">Locking Microservice
-ProductLock</a></td>
-					<td width="50%" class="TableRow" valign="top">Return Success Message</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7410" onclick="parent.toggleDiv('detailsDIVMessage7410', 'DetailsImageMessage7410')" />Details:
-							<div id="detailsDIVMessage7410" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="CustomPropertiesTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
-				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
-				<td width="70%" class="TableRow">true</td>
-			</tr>
-
-
-			</table>
-		</div>	</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

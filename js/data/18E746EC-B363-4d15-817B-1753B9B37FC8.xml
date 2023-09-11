@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.4.6:1", "", "14-Invoice Domain Model", "EARoot/EA4/EA6/EA3389.htm", "175.png", "5632", "0", "", "Logical diagram0","{A57E8AF7-EE3D-4862-A953-276A735CB696}");
-tocTab[tocTab.length] = new Array("0.4.6.1", "1", "Domain Objects", "EARoot/EA4/EA6/EA1/EA3397.htm", "4.png", "", "", "{7B47CB69-3801-4f84-9612-1A8C79D5A0D6}", "Package");
+tocTab[tocTab.length] = new Array("0.4.6:1", "", "14-Invoice Domain Model", "EARoot/EA4/EA6/EA3392.htm", "175.png", "5632", "0", "", "Logical diagram0","{A57E8AF7-EE3D-4862-A953-276A735CB696}");
+tocTab[tocTab.length] = new Array("0.4.6.1", "1", "Domain Objects", "EARoot/EA4/EA6/EA1/EA3400.htm", "4.png", "", "", "{7B47CB69-3801-4f84-9612-1A8C79D5A0D6}", "Package");

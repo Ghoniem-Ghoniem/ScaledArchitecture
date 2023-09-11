@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Deleted with reason</title>
+<title>DB Layer</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Deleted with reason", " : "))</script>  : Public   State</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DB Layer", " : "))</script>  : Public   Sequence</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">10/19/2021 11:13:05 PM</td>
+			<td width="85%" class="ObjectDetailsValue">9/21/2021 2:33:33 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">10/19/2021 11:15:11 PM</td>
+			<td class="ObjectDetailsValue">9/26/2021 3:34:15 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,65 +87,119 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{50B33FDA-0649-4fbf-A8DF-944BF9A3817B}</td>
+			<td class="ObjectDetailsValue">{A13EB8C4-53B3-4e12-9780-1CF32B02280A}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA3827.htm">Transactions Objects State</a></td>
+			<td class="ObjectDetailsValue"><a href="EA3802.htm">Generic Architecture Flow: Sequence Diagram</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
+		<div class="ItemBody" id="MessagesToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA3900.htm">Final</a><br />
-						StateNode &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top"><a href="EA3879.htm">DB Layer</a></td>
+					<td width="50%" class="TableRow" valign="top">Call Related Logical Objects</td>
 				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow6465" onclick="parent.toggleDiv('detailsDIVLinkFlow6465', 'DetailsImageLinkFlow6465')" />Details:
-							<div id="detailsDIVLinkFlow6465" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage6449" onclick="parent.toggleDiv('detailsDIVMessage6449', 'DetailsImageMessage6449')" />Details:
+							<div id="detailsDIVMessage6449" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA3879.htm">DB Layer</a></td>
+					<td width="50%" class="TableRow" valign="top">Call Related Logical Object</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage6450" onclick="parent.toggleDiv('detailsDIVMessage6450', 'DetailsImageMessage6450')" />Details:
+							<div id="detailsDIVMessage6450" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
 			</table>
 		</div>
-		<div class="ItemBody" id="FlowFromTable">
+		<div class="ItemBody" id="MessagesFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA3890.htm">Draft Transaction</a><br />
-						State &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top"><a href="EA3877.htm">DAL Layer</a></td>
+					<td width="50%" class="TableRow" valign="top">Implement Service On Related DB</td>
 				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow6466" onclick="parent.toggleDiv('detailsDIVLinkFlow6466', 'DetailsImageLinkFlow6466')" />Details:
-							<div id="detailsDIVLinkFlow6466" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage6451" onclick="parent.toggleDiv('detailsDIVMessage6451', 'DetailsImageMessage6451')" />Details:
+							<div id="detailsDIVMessage6451" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA3877.htm">DAL Layer</a></td>
+					<td width="50%" class="TableRow" valign="top">Log Operation</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage6452" onclick="parent.toggleDiv('detailsDIVMessage6452', 'DetailsImageMessage6452')" />Details:
+							<div id="detailsDIVMessage6452" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA3879.htm">DB Layer</a></td>
+					<td width="50%" class="TableRow" valign="top">Call Related Logical Objects</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage6453" onclick="parent.toggleDiv('detailsDIVMessage6453', 'DetailsImageMessage6453')" />Details:
+							<div id="detailsDIVMessage6453" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA3879.htm">DB Layer</a></td>
+					<td width="50%" class="TableRow" valign="top">Call Related Logical Object</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage6454" onclick="parent.toggleDiv('detailsDIVMessage6454', 'DetailsImageMessage6454')" />Details:
+							<div id="detailsDIVMessage6454" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
 			</table>
 		</div>
 	</div>

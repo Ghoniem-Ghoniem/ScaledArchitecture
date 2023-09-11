@@ -1,0 +1,17 @@
+tocTab[tocTab.length] = new Array("0.11.4:1", "", "Integration Requirements", "EARoot/EA11/EA4/EA5246.htm", "188.png", "5535", "0", "", "Custom diagram0","{2DCCC474-D7A9-4ae4-A148-4D8D5A322310}");
+tocTab[tocTab.length] = new Array("0.11.4:2", "", "«DX» BM01: IBM BPM", "EARoot/EA11/EA4/EA5249.htm", "19.png", "E51071", "0", "", "Requirement0","{7E21B7FE-FEEF-4f08-BF0A-2814CAF4D72B}");
+tocTab[tocTab.length] = new Array("0.11.4:3", "", "«DX» BM02: IBM BRM", "EARoot/EA11/EA4/EA5250.htm", "19.png", "E51072", "0", "", "Requirement0","{0AF135E6-5435-46b3-BAA3-956509D442C9}");
+tocTab[tocTab.length] = new Array("0.11.4:4", "", "«DX» COM01: SMS Notification Gateway<br />", "EARoot/EA11/EA4/EA5252.htm", "19.png", "E51073", "0", "", "Requirement0","{3B7EB168-042A-4a64-8054-24AADCD343E7}");
+tocTab[tocTab.length] = new Array("0.11.4:5", "", "«DX» COM02: Email Gateway", "EARoot/EA11/EA4/EA5253.htm", "19.png", "E51077", "0", "", "Requirement0","{EC252E1F-07EC-4ad8-B724-B65FAAB9516E}");
+tocTab[tocTab.length] = new Array("0.11.4:6", "", "«DX» COM03: Bitly Shortner", "EARoot/EA11/EA4/EA5254.htm", "19.png", "E51088", "0", "", "Requirement0","{7ADADA0F-20B8-4c61-B6DA-C7F8C2E22DBC}");
+tocTab[tocTab.length] = new Array("0.11.4:7", "", "«DX» DX07: Adpotion Growth Rate", "EARoot/EA11/EA4/EA5256.htm", "19.png", "E51074", "0", "", "Requirement0","{F00173D8-A72D-4b2b-8FAD-2725EE9E5D6D}");
+tocTab[tocTab.length] = new Array("0.11.4:8", "", "«DX» DX07: Adpotion Growth Rate", "EARoot/EA11/EA4/EA5257.htm", "19.png", "E51084", "0", "", "Requirement0","{B121946F-CECB-45d6-A43E-B7D6DD998CC7}");
+tocTab[tocTab.length] = new Array("0.11.4:9", "", "«DX» IM04: Archiving System", "EARoot/EA11/EA4/EA5260.htm", "19.png", "E51090", "0", "", "Requirement0","{9C4C327C-B630-4e07-B31E-EB5A8DDE685D}");
+tocTab[tocTab.length] = new Array("0.11.4:10", "", "«DX» IM04: E-Signature", "EARoot/EA11/EA4/EA5261.htm", "19.png", "E51087", "0", "", "Requirement0","{9765DC52-6BE0-43f7-B96D-9E848FE4D7AC}");
+tocTab[tocTab.length] = new Array("0.11.4:11", "", "«DX» IM04: Maximo Contracting", "EARoot/EA11/EA4/EA5262.htm", "19.png", "E51089", "0", "", "Requirement0","{AC960E15-013F-4ff8-A21C-3A13F7E82118}");
+tocTab[tocTab.length] = new Array("0.11.4:12", "", "«DX» IM3: Tawqee", "EARoot/EA11/EA4/EA5263.htm", "19.png", "E51079", "0", "", "Requirement0","{82F946EF-F0B1-47d3-9ECB-D68FC93B9771}");
+tocTab[tocTab.length] = new Array("0.11.4:13", "", "«DX» PAY01: E-Payment Gateway", "EARoot/EA11/EA4/EA5264.htm", "19.png", "E51083", "0", "", "Requirement0","{608E6285-7B82-43b4-8458-50E4157BE8D4}");
+tocTab[tocTab.length] = new Array("0.11.4:14", "", "«DX» PAY02: E-Wallet Gateway", "EARoot/EA11/EA4/EA5265.htm", "19.png", "E51085", "0", "", "Requirement0","{DC92109F-8D0C-4abe-A367-AA24B24CCB6A}");
+tocTab[tocTab.length] = new Array("0.11.4:15", "", "«DX» PAY02: GRP", "EARoot/EA11/EA4/EA5266.htm", "19.png", "E51595", "0", "", "Requirement0","{5D106BC7-A64F-4fb1-AEB6-4B152967B791}");
+tocTab[tocTab.length] = new Array("0.11.4:16", "", "«DX» IM01 : UAEPass", "EARoot/EA11/EA4/EA5267.htm", "19.png", "E51076", "0", "", "Requirement0","{E0C6DF2F-DB79-4cca-8C96-C4093DD52FD1}");
+tocTab[tocTab.length] = new Array("0.11.4:17", "", "«DX» IM02 : IAM", "EARoot/EA11/EA4/EA5268.htm", "19.png", "E51075", "0", "", "Requirement0","{9E031E6B-C55F-4773-BF2B-93B95167F409}");

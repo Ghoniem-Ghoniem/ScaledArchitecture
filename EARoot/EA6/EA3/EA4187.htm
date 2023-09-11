@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gateway</title>
+<title>DTS - Driving Training System
+(External)</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +35,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gateway", " : "))</script>  : Public   Sequence</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DTS - Driving Training System<br />(External)", " : "))</script>  : Public   Component</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">5/29/2023 6:01:41 PM</td>
+			<td width="85%" class="ObjectDetailsValue">6/12/2023 12:57:31 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">5/29/2023 6:01:49 PM</td>
+			<td class="ObjectDetailsValue">6/12/2023 12:58:44 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +88,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{AC313333-8257-4539-A7B9-8601867FF9BD}</td>
+			<td class="ObjectDetailsValue">{99F00A14-F3FB-4f86-A3D8-63BC1F1DC997}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA4150.htm">Check UMS Eligibility</a></td>
+			<td class="ObjectDetailsValue"><a href="EA4165.htm">Open Learning File Integration SD</a>, <a href="EA4155.htm">DLS-Book Exam Appointment</a></td>
 		</tr>
 	</table>
 	
@@ -99,6 +100,7 @@ function nameClassifier(name, separator)
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
 			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
 		<div class="ItemBody" id="MessagesToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -107,14 +109,55 @@ function nameClassifier(name, separator)
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4193.htm">Issue License Journey
-MS</a></td>
-					<td width="50%" class="TableRow" valign="top">Call validate-customer-eligibility API to validate the customer</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4197.htm">Issue driving License Journey MS</a></td>
+					<td width="50%" class="TableRow" valign="top">Return Initial Training Information</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7160" onclick="parent.toggleDiv('detailsDIVMessage7160', 'DetailsImageMessage7160')" />Details:
-							<div id="detailsDIVMessage7160" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7084" onclick="parent.toggleDiv('detailsDIVMessage7084', 'DetailsImageMessage7084')" />Details:
+							<div id="detailsDIVMessage7084" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4197.htm">Issue driving License Journey MS</a></td>
+					<td width="50%" class="TableRow" valign="top">Return Final Training Information with available Driving Institutes</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7085" onclick="parent.toggleDiv('detailsDIVMessage7085', 'DetailsImageMessage7085')" />Details:
+							<div id="detailsDIVMessage7085" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4197.htm">Issue driving License Journey MS</a></td>
+					<td width="50%" class="TableRow" valign="top">Success Response</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7086" onclick="parent.toggleDiv('detailsDIVMessage7086', 'DetailsImageMessage7086')" />Details:
+							<div id="detailsDIVMessage7086" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4178.htm">Appointment</a></td>
+					<td width="50%" class="TableRow" valign="top">Get Exam Eligibility (DTS)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7087" onclick="parent.toggleDiv('detailsDIVMessage7087', 'DetailsImageMessage7087')" />Details:
+							<div id="detailsDIVMessage7087" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -131,13 +174,55 @@ MS</a></td>
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA4186.htm">Frontend</a></td>
-					<td width="50%" class="TableRow" valign="top">All request go through API Gateway</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4197.htm">Issue driving License Journey MS</a></td>
+					<td width="50%" class="TableRow" valign="top">Get Initial Training Information</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7161" onclick="parent.toggleDiv('detailsDIVMessage7161', 'DetailsImageMessage7161')" />Details:
-							<div id="detailsDIVMessage7161" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7088" onclick="parent.toggleDiv('detailsDIVMessage7088', 'DetailsImageMessage7088')" />Details:
+							<div id="detailsDIVMessage7088" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4197.htm">Issue driving License Journey MS</a></td>
+					<td width="50%" class="TableRow" valign="top">Get Final Training Information with available Driving Institutes</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7089" onclick="parent.toggleDiv('detailsDIVMessage7089', 'DetailsImageMessage7089')" />Details:
+							<div id="detailsDIVMessage7089" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4197.htm">Issue driving License Journey MS</a></td>
+					<td width="50%" class="TableRow" valign="top">Submit Application to DTS</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7090" onclick="parent.toggleDiv('detailsDIVMessage7090', 'DetailsImageMessage7090')" />Details:
+							<div id="detailsDIVMessage7090" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4178.htm">Appointment</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7091" onclick="parent.toggleDiv('detailsDIVMessage7091', 'DetailsImageMessage7091')" />Details:
+							<div id="detailsDIVMessage7091" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -147,7 +232,20 @@ MS</a></td>
 
 			</table>
 		</div>
-	</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
+				<td width="70%" class="TableRow">true</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

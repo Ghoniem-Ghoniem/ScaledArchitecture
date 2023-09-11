@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>PENDING VERIFICATION</title>
+<title>Notification
+Schema</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +35,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("PENDING VERIFICATION", " : "))</script>  : Public   State</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Notification<br />Schema", " : "))</script>  : Public   Sequence</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2/10/2023 12:16:15 PM</td>
+			<td width="85%" class="ObjectDetailsValue">2/5/2023 2:12:41 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">2/10/2023 12:18:48 PM</td>
+			<td class="ObjectDetailsValue">2/5/2023 2:12:52 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,82 +88,104 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{EEDE800E-911C-48f7-978C-807744CA8134}</td>
+			<td class="ObjectDetailsValue">{55B09B48-5796-4114-A651-15B9DAF6E9B0}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA4247.htm">OtpMessage StateMachine</a></td>
+			<td class="ObjectDetailsValue"><a href="EA4255.htm">Send Notification Activity</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
+		<div class="ItemBody" id="MessagesToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA4257.htm">FAILED
-TO
-VERIFIED</a><br />
-						State &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">[Failed To Verify]</td>					
+					<td width="50%" class="TableRow" valign="top"><a href="EA4266.htm">Notification
+Log
+Job</a></td>
+					<td width="50%" class="TableRow" valign="top">Return Draft Notification</td>
 				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow7478" onclick="parent.toggleDiv('detailsDIVLinkFlow7478', 'DetailsImageLinkFlow7478')" />Details:
-							<div id="detailsDIVLinkFlow7478" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA4269.htm">VERIFIED</a><br />
-						State &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">[Verified Successfully]</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow7479" onclick="parent.toggleDiv('detailsDIVLinkFlow7479', 'DetailsImageLinkFlow7479')" />Details:
-							<div id="detailsDIVLinkFlow7479" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7591" onclick="parent.toggleDiv('detailsDIVMessage7591', 'DetailsImageMessage7591')" />Details:
+							<div id="detailsDIVMessage7591" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+
 			</table>
 		</div>
-		<div class="ItemBody" id="FlowFromTable">
+		<div class="ItemBody" id="MessagesFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA4258.htm">Initial OTP Message</a><br />
-						StateNode &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top"><a href="EA4267.htm">Notification
+Message Consumer</a></td>
+					<td width="50%" class="TableRow" valign="top">Save Notification Message</td>
 				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow7480" onclick="parent.toggleDiv('detailsDIVLinkFlow7480', 'DetailsImageLinkFlow7480')" />Details:
-							<div id="detailsDIVLinkFlow7480" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7592" onclick="parent.toggleDiv('detailsDIVMessage7592', 'DetailsImageMessage7592')" />Details:
+							<div id="detailsDIVMessage7592" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Asynchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4266.htm">Notification
+Log
+Job</a></td>
+					<td width="50%" class="TableRow" valign="top">Load Draft Notifications</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7593" onclick="parent.toggleDiv('detailsDIVMessage7593', 'DetailsImageMessage7593')" />Details:
+							<div id="detailsDIVMessage7593" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Load all "<b>Ready To Send (DRAFT)</b>" notification to be sent.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4266.htm">Notification
+Log
+Job</a></td>
+					<td width="50%" class="TableRow" valign="top">Reflect new Status</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage7594" onclick="parent.toggleDiv('detailsDIVMessage7594', 'DetailsImageMessage7594')" />Details:
+							<div id="detailsDIVMessage7594" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Reflect the new Status for the notification based on send operation status returned by provider (TARS).
+
+Status values : 
+<ol>
+	<li>SUCCESS</li>
+	<li>FAILED</li>
+</ol>
+							</div>
+						</div>
+					</td>
+				</tr>
+
 			</table>
 		</div>
 	</div>
