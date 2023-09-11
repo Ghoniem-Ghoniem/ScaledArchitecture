@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>GRP Application</title>
+<title>Found?</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,11 +34,11 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GRP Application", " : "))</script>  : Public   Sequence</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Found?", " : "))</script>  : Public   Decision</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2/23/2023 12:55:24 PM</td>
+			<td width="85%" class="ObjectDetailsValue">2/21/2023 8:00:37 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">tabuamireh</td>
+			<td class="ObjectDetailsValue">Mahdi</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,231 +87,80 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{55F814D8-2F8F-44f2-A95C-3F9CE442FE47}</td>
+			<td class="ObjectDetailsValue">{02CC0098-BD48-462d-823E-6F36614E242A}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA2524.htm">GRP Sequence Diagram</a></td>
+			<td class="ObjectDetailsValue"><a href="EA2533.htm">Initiate workflow request for each new Invoice</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
-			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
+		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2559.htm">GRP DB</a></td>
-					<td width="50%" class="TableRow" valign="top">Load New GRP Invoices</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2549.htm">Create BPM workflow</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">Yes</td>					
 				</tr>
-		   		<tr>
+				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3633" onclick="parent.toggleDiv('detailsDIVMessage3633', 'DetailsImageMessage3633')" />Details:
-							<div id="detailsDIVMessage3633" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3632" onclick="parent.toggleDiv('detailsDIVLinkFlow3632', 'DetailsImageLinkFlow3632')" />Details:
+							<div id="detailsDIVLinkFlow3632" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2588.htm">wait for 1 minute</a><br />
+						CentralBufferNode &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">No</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3633" onclick="parent.toggleDiv('detailsDIVLinkFlow3633', 'DetailsImageLinkFlow3633')" />Details:
+							<div id="detailsDIVLinkFlow3633" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2540.htm">BPM</a></td>
-					<td width="50%" class="TableRow" valign="top">Initiate Process Instance</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3634" onclick="parent.toggleDiv('detailsDIVMessage3634', 'DetailsImageMessage3634')" />Details:
-							<div id="detailsDIVMessage3634" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2555.htm">GRP Application</a></td>
-					<td width="50%" class="TableRow" valign="top">Link process with Workflow Request</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3635" onclick="parent.toggleDiv('detailsDIVMessage3635', 'DetailsImageMessage3635')" />Details:
-							<div id="detailsDIVMessage3635" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2555.htm">GRP Application</a></td>
-					<td width="50%" class="TableRow" valign="top">Update Invoice status to Under Review</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3636" onclick="parent.toggleDiv('detailsDIVMessage3636', 'DetailsImageMessage3636')" />Details:
-							<div id="detailsDIVMessage3636" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2560.htm">GRP External System</a></td>
-					<td width="50%" class="TableRow" valign="top">Send Invoice upon financial officer approval</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3637" onclick="parent.toggleDiv('detailsDIVMessage3637', 'DetailsImageMessage3637')" />Details:
-							<div id="detailsDIVMessage3637" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2555.htm">GRP Application</a></td>
-					<td width="50%" class="TableRow" valign="top">Update Invoice with returned data</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3638" onclick="parent.toggleDiv('detailsDIVMessage3638', 'DetailsImageMessage3638')" />Details:
-							<div id="detailsDIVMessage3638" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2555.htm">GRP Application</a></td>
-					<td width="50%" class="TableRow" valign="top">Update Invoice Status to COMPLETED</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3639" onclick="parent.toggleDiv('detailsDIVMessage3639', 'DetailsImageMessage3639')" />Details:
-							<div id="detailsDIVMessage3639" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
-		<div class="ItemBody" id="MessagesFromTable">
+		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2559.htm">GRP DB</a></td>
-					<td width="50%" class="TableRow" valign="top">List of GRP Invoices</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2557.htm">Get New invoices</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
-		   		<tr>
+				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3640" onclick="parent.toggleDiv('detailsDIVMessage3640', 'DetailsImageMessage3640')" />Details:
-							<div id="detailsDIVMessage3640" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3634" onclick="parent.toggleDiv('detailsDIVLinkFlow3634', 'DetailsImageLinkFlow3634')" />Details:
+							<div id="detailsDIVLinkFlow3634" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2540.htm">BPM</a></td>
-					<td width="50%" class="TableRow" valign="top">Process Instance Id</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3641" onclick="parent.toggleDiv('detailsDIVMessage3641', 'DetailsImageMessage3641')" />Details:
-							<div id="detailsDIVMessage3641" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2555.htm">GRP Application</a></td>
-					<td width="50%" class="TableRow" valign="top">Link process with Workflow Request</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3642" onclick="parent.toggleDiv('detailsDIVMessage3642', 'DetailsImageMessage3642')" />Details:
-							<div id="detailsDIVMessage3642" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2555.htm">GRP Application</a></td>
-					<td width="50%" class="TableRow" valign="top">Update Invoice status to Under Review</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3643" onclick="parent.toggleDiv('detailsDIVMessage3643', 'DetailsImageMessage3643')" />Details:
-							<div id="detailsDIVMessage3643" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2560.htm">GRP External System</a></td>
-					<td width="50%" class="TableRow" valign="top">Return GRP Invoice Number</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3644" onclick="parent.toggleDiv('detailsDIVMessage3644', 'DetailsImageMessage3644')" />Details:
-							<div id="detailsDIVMessage3644" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2555.htm">GRP Application</a></td>
-					<td width="50%" class="TableRow" valign="top">Update Invoice with returned data</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3645" onclick="parent.toggleDiv('detailsDIVMessage3645', 'DetailsImageMessage3645')" />Details:
-							<div id="detailsDIVMessage3645" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA2555.htm">GRP Application</a></td>
-					<td width="50%" class="TableRow" valign="top">Update Invoice Status to COMPLETED</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage3646" onclick="parent.toggleDiv('detailsDIVMessage3646', 'DetailsImageMessage3646')" />Details:
-							<div id="detailsDIVMessage3646" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
 	</div>

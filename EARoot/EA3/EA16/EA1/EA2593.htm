@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Loop on all invoices and send it to BPM</title>
+<title>Collect Invoice data </title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Loop on all invoices and send it to BPM", " : "))</script>  : Public   LoopNode</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Collect Invoice data ", " : "))</script>  : Public   Activity</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2/19/2023 5:07:26 PM</td>
+			<td width="85%" class="ObjectDetailsValue">2/19/2023 4:59:38 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">2/28/2023 3:44:11 AM</td>
+			<td class="ObjectDetailsValue">2/19/2023 5:00:05 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{5BFBEA80-99A6-438c-9F9E-AE475A91FC7D}</td>
+			<td class="ObjectDetailsValue">{58A64123-EDC3-4ad3-89A4-49F13C584585}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA2522.htm">GRP Activity Diagram</a></td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
 	
@@ -109,15 +109,15 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA2595.htm">Initiate Business Process Instance</a><br />
+						<a href="EA2594.htm">Mark the invoices with Status (GENERATED)</a><br />
 						Activity &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3750" onclick="parent.toggleDiv('detailsDIVLinkFlow3750', 'DetailsImageLinkFlow3750')" />Details:
-							<div id="detailsDIVLinkFlow3750" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3749" onclick="parent.toggleDiv('detailsDIVLinkFlow3749', 'DetailsImageLinkFlow3749')" />Details:
+							<div id="detailsDIVLinkFlow3749" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -133,15 +133,15 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA2592.htm">Application Job to initiate workflow for each generated invoice</a><br />
+						<a href="../../../EA4/EA4/EA1/EA3129.htm">Request for Calculation</a><br />
 						Activity &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3751" onclick="parent.toggleDiv('detailsDIVLinkFlow3751', 'DetailsImageLinkFlow3751')" />Details:
-							<div id="detailsDIVLinkFlow3751" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow3750" onclick="parent.toggleDiv('detailsDIVLinkFlow3750', 'DetailsImageLinkFlow3750')" />Details:
+							<div id="detailsDIVLinkFlow3750" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -156,7 +156,7 @@ function nameClassifier(name, separator)
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">mustIsolate:</td>
+				<td width="30%" class="TableRow">isReadOnly:</td>
 				<td width="70%" class="TableRow">false</td>
 			</tr>
 

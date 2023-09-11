@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Create Draft Request with service fees</title>
+<title>Calculate exempted amounts on collection items</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Create Draft Request with service fees", " : "))</script>  : Public   Activity</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Calculate exempted amounts on collection items", " : "))</script>  : Public   Activity</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">3/21/2023 11:36:19 AM</td>
+			<td width="85%" class="ObjectDetailsValue">3/21/2023 12:18:37 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">4/11/2023 1:28:22 PM</td>
+			<td class="ObjectDetailsValue">4/3/2023 1:30:10 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,21 +87,19 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{CF3E9E18-503D-46c3-A47D-2580116700C2}</td>
+			<td class="ObjectDetailsValue">{5D8B4748-6A35-4913-B27F-FB3B0DDD97DB}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA3236.htm">Create Exemption Request from Draft invoice</a></td>
+			<td class="ObjectDetailsValue"><a href="EA3239.htm">Create Exemption Request from Draft invoice</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">As EXS, &lt;br /&gt;&lt;/p&gt;&lt;p&gt;I will create a draft exemption request using the draft invoice details, &lt;br /&gt;&lt;/p&gt;&lt;p&gt;So that, i will generate final exempted invoice&lt;br /&gt;&lt;/p&gt;</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('Requirements');" id="RequirementsTitle">Requirements</li>
-			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
 			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
@@ -113,15 +111,15 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA3302.htm">Success</a><br />
-						Decision &nbsp;
+						<a href="EA3307.htm">Validate locking of used exmptions</a><br />
+						Activity &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4848" onclick="parent.toggleDiv('detailsDIVLinkFlow4848', 'DetailsImageLinkFlow4848')" />Details:
-							<div id="detailsDIVLinkFlow4848" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4834" onclick="parent.toggleDiv('detailsDIVLinkFlow4834', 'DetailsImageLinkFlow4834')" />Details:
+							<div id="detailsDIVLinkFlow4834" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -137,15 +135,15 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA3293.htm">ActivityInitial</a><br />
-						StateNode &nbsp;
+						<a href="EA3301.htm">Found</a><br />
+						Decision &nbsp;
 					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top">Yes</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4849" onclick="parent.toggleDiv('detailsDIVLinkFlow4849', 'DetailsImageLinkFlow4849')" />Details:
-							<div id="detailsDIVLinkFlow4849" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4835" onclick="parent.toggleDiv('detailsDIVLinkFlow4835', 'DetailsImageLinkFlow4835')" />Details:
+							<div id="detailsDIVLinkFlow4835" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -164,7 +162,7 @@ function nameClassifier(name, separator)
 					<td width="10%" class="TableHeading">Stability</td>
 				</tr>
 				<tr>
-					<td width="60%" class="TableRow">FR01-Unique exemption request per invoice </td>
+					<td width="60%" class="TableRow">FR01-Check applied exemption by order</td>
 					<td width="10%" class="TableRow">Functional</td>
 					<td width="10%" class="TableRow">Proposed</td>
 					<td width="10%" class="TableRow">Medium</td>
@@ -173,34 +171,9 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="6">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement4850" onclick="parent.toggleDiv('detailsDIVRequirement4850','DetailsImageRequirement4850')" />Details:
-							<div id="detailsDIVRequirement4850" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Each invoice can have only one exemption request, if new get is sent for same invoice than recalculate related exemptions </div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="ConstraintsTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-			  	<tr>
-					<td width="80%" class="TableHeading">Constraint</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Status</td>
-				</tr>
-				<tr>
-					<td width="80%" class="TableRow">BR-01 Cannot recalculate exemption after locking for payment</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints4851" onclick="parent.toggleDiv('detailsDIVConstraints4851','DetailsImageConstraints4851')" />Details:
-							<div id="detailsDIVConstraints4851" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Cannot recalculate exemption after locking for payment</div>
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement4836" onclick="parent.toggleDiv('detailsDIVRequirement4836','DetailsImageRequirement4836')" />Details:
+							<div id="detailsDIVRequirement4836" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Check applied exemption by the following order:&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Priority of Applying	Rule Type			E-Traffic exemption type&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span dir=&quot;ltr&quot;&gt;1			PROFILE_E_SIGNATURE		&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1578;&#1608;&#1602;&#1610;&#1593; &#1573;&#1604;&#1603;&#1578;&#1585;&#1608;&#1606;&#1610;&lt;/span&gt;&lt;span dir=&quot;ltr&quot;&gt;-&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1605;&#1604;&#1601; &#1605;&#1585;&#1608;&#1585;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span dir=&quot;ltr&quot;&gt;2			CONSULATE_PLATE		&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1607;&#1610;&#1574;&#1577; &#1602;&#1606;&#1589;&#1604;&#1610;&#1577;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span dir=&quot;ltr&quot;&gt;3			POD_VEHICLE			&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1605;&#1585;&#1603;&#1576;&#1575;&#1578; &#1584;&#1608;&#1610; &#1575;&#1604;&#1573;&#1581;&#1578;&#1610;&#1575;&#1580;&#1575;&#1578; &#1575;&#1604;&#1582;&#1575;&#1589;&#1577;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span dir=&quot;ltr&quot;&gt;4			PROFILE_FEES_CATEGORIES	&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1575;&#1593;&#1601;&#1575;&#1569; &#1605;&#1593;&#1585;&#1601;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span dir=&quot;ltr&quot;&gt;5			PROFILE_SERVICE_FEES		&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1573;&#1593;&#1601;&#1575;&#1569; &#1582;&#1583;&#1605;&#1577;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span dir=&quot;ltr&quot;&gt;6			PROFILE_CATEGORY_POD		&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1573;&#1593;&#1601;&#1575;&#1569; &#1571;&#1589;&#1581;&#1575;&#1576; &#1575;&#1604;&#1607;&#1605;&#1605;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span dir=&quot;ltr&quot;&gt;7			CTA_REQUEST_E_SIGNATURE	&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1578;&#1608;&#1602;&#1610;&#1593; &#1573;&#1604;&#1603;&#1578;&#1585;&#1608;&#1606;&#1610;&lt;/span&gt;&lt;span dir=&quot;ltr&quot;&gt;-&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1591;&#1604;&#1576; &#1578;&#1585;&#1582;&#1610;&#1589; &#1578;&#1580;&#1575;&#1585;&#1610;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span dir=&quot;ltr&quot;&gt;8			MBR_SME_PROJECT		&lt;/span&gt;&lt;span dir=&quot;rtl&quot;&gt;&#1605;&#1572;&#1587;&#1587;&#1577; &#1605;&#1581;&#1605;&#1583; &#1576;&#1606; &#1585;&#1575;&#1588;&#1583; &#1604;&#1578;&#1606;&#1605;&#1610;&#1577; &#1575;&#1604;&#1605;&#1588;&#1575;&#1585;&#1610;&#1593; &#1575;&#1604;&#1589;&#1594;&#1610;&#1585;&#1577; &#1608;&#1575;&#1604;&#1605;&#1578;&#1608;&#1587;&#1591;&#1577;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;</div>
 
 							</div>
 						</div>
@@ -221,36 +194,55 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4852" onclick="parent.toggleDiv('detailsDIVScenario4852','DetailsImageScenario4852')" />Details:
-							<div id="detailsDIVScenario4852" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4837" onclick="parent.toggleDiv('detailsDIVScenario4837','DetailsImageScenario4837')" />Details:
+							<div id="detailsDIVScenario4837" class="DetailsDiv" >
 							
 							</div>
 						</div>
-						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario4852" onclick="parent.toggleDiv('stepDIVScenario4852','StepImageScenario4852')" />Steps:
-							<div id="stepDIVScenario4852" class="StrucuturedDiv" >
-							<div class="ObjectDetailsNotes">1. Get Exemption request by Invocie Reference <br />2. No Data Found <br />3. Create Draft Exemption Request <br />4. Create Exemption request fees <br /></div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario4837" onclick="parent.toggleDiv('stepDIVScenario4837','StepImageScenario4837')" />Steps:
+							<div id="stepDIVScenario4837" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. Loop on request items <br />2. For each items fee, Loop on the eligible exemptions by priority order <br />3. If the eligible exemption applied, do the following: <br />4. Set exempted amount and exemption type on the request item based on the eligible exemption details <br />5. Update the exemption usage status <br />6. Skip validating remaining eligible exemptions <br />7. process next request item <br />8. If all request items got processed end <br /></div>
 							</div>
 						</div>
-						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4853" onclick="parent.toggleDiv('detailsDIVScenario4853','DetailsImageScenario4853')" />Exceptions:				<div id="detailsDIVScenario4853" class="StrucuturedDiv" >
-							<div class="ObjectDetailsNotes">1a. Invocie already has exemption request (at End)<br /></div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4838" onclick="parent.toggleDiv('detailsDIVScenario4838','DetailsImageScenario4838')" />Exceptions:				<div id="detailsDIVScenario4838" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1a. First eligible exemption does not apply to item while next applies (at End)<br />1b. No eligible exemption apply to the item (at End)<br /></div>
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="90%" class="TableRow">Invocie already has exemption request</td>
+					<td width="90%" class="TableRow">First eligible exemption does not apply to item while next applies</td>
 					<td width="10%" class="TableRow">Alternate</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4855" onclick="parent.toggleDiv('detailsDIVScenario4855','DetailsImageScenario4855')" />Details:
-							<div id="detailsDIVScenario4855" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4840" onclick="parent.toggleDiv('detailsDIVScenario4840','DetailsImageScenario4840')" />Details:
+							<div id="detailsDIVScenario4840" class="DetailsDiv" >
 							
 							</div>
 						</div>
-						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario4855" onclick="parent.toggleDiv('stepDIVScenario4855','StepImageScenario4855')" />Steps:
-							<div id="stepDIVScenario4855" class="StrucuturedDiv" >
-							<div class="ObjectDetailsNotes">1. Get Exemption request by Invocie Reference <br />2. Request is found <br />3. Update Request Detail <br /></div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario4840" onclick="parent.toggleDiv('stepDIVScenario4840','StepImageScenario4840')" />Steps:
+							<div id="stepDIVScenario4840" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. Alternativ from main flow step 3 <br />2. If an eligible exemption does not apply apply, Check the next eligible exemptions by priority order <br />3. If an eligible exemption applied, apply all steps from main flow step 4 <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">No eligible exemption apply to the item</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4842" onclick="parent.toggleDiv('detailsDIVScenario4842','DetailsImageScenario4842')" />Details:
+							<div id="detailsDIVScenario4842" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario4842" onclick="parent.toggleDiv('stepDIVScenario4842','StepImageScenario4842')" />Steps:
+							<div id="stepDIVScenario4842" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. Alternativ from main flow step 3 <br />2. If an eligible exemption does not apply apply, Check the next eligible exemptions by priority order <br />3. If no eligible exemption apply apply, Keep the request item value as it is with no exemption <br />4. process next request item based on proper scenario <br />5. If all request items got processed end <br /></div>
 							</div>
 						</div>
 						

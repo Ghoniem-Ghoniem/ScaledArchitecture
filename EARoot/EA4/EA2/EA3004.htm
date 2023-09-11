@@ -2,8 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Has payment clearance
-for same service and same DI</title>
+<title>Direct the customer to the payment page</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -35,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Has payment clearance<br />for same service and same DI", " : "))</script>  : Public   Decision</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Direct the customer to the payment page", " : "))</script>  : Public   Activity</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">7/20/2023 4:15:21 PM</td>
+			<td width="85%" class="ObjectDetailsValue">7/20/2023 4:22:53 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">7/20/2023 4:16:22 PM</td>
+			<td class="ObjectDetailsValue">7/20/2023 4:23:03 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -88,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{D4541BAC-66DF-461b-BB11-E752EFDF609A}</td>
+			<td class="ObjectDetailsValue">{8464DEFF-8DC2-4ceb-94BC-7A5AD3287131}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA2972.htm">03-DLS - Book_Appointment - Payment_Segregation</a></td>
+			<td class="ObjectDetailsValue"><a href="EA2975.htm">03-DLS - Book_Appointment - Payment_Segregation</a></td>
 		</tr>
 	</table>
 	
@@ -100,6 +99,7 @@ function nameClassifier(name, separator)
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
 		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -109,31 +109,30 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA3000.htm">DI eligible for
-payment segregation</a><br />
-						Decision &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">No</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4290" onclick="parent.toggleDiv('detailsDIVLinkFlow4290', 'DetailsImageLinkFlow4290')" />Details:
-							<div id="detailsDIVLinkFlow4290" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA2999.htm">Deduct the fees from the driving institute</a><br />
+						<a href="EA3000.htm">Activity2</a><br />
 						Activity &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4291" onclick="parent.toggleDiv('detailsDIVLinkFlow4291', 'DetailsImageLinkFlow4291')" />Details:
-							<div id="detailsDIVLinkFlow4291" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4289" onclick="parent.toggleDiv('detailsDIVLinkFlow4289', 'DetailsImageLinkFlow4289')" />Details:
+							<div id="detailsDIVLinkFlow4289" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA3006.htm">Get the required fees</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4290" onclick="parent.toggleDiv('detailsDIVLinkFlow4290', 'DetailsImageLinkFlow4290')" />Details:
+							<div id="detailsDIVLinkFlow4290" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -149,15 +148,16 @@ payment segregation</a><br />
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA2993.htm">Confirm the appointment</a><br />
-						Activity &nbsp;
+						<a href="EA3003.htm">DI eligible for
+payment segregation</a><br />
+						Decision &nbsp;
 					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top">Yes</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4292" onclick="parent.toggleDiv('detailsDIVLinkFlow4292', 'DetailsImageLinkFlow4292')" />Details:
-							<div id="detailsDIVLinkFlow4292" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4291" onclick="parent.toggleDiv('detailsDIVLinkFlow4291', 'DetailsImageLinkFlow4291')" />Details:
+							<div id="detailsDIVLinkFlow4291" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -165,7 +165,20 @@ payment segregation</a><br />
 				</tr>
 			</table>
 		</div>
-	</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>
