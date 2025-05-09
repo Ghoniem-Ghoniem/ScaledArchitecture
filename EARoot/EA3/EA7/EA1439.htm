@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Retrieve Customer Profile</title>
+<title>List of Elements in Diagram 03-Driving License</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Retrieve Customer Profile", " : "))</script>  : Public   Action</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("List of Elements in Diagram 03-Driving License", " : "))</script>  : Public  &lt;&lt;ModelView&gt;&gt; ModelView</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">7/27/2023 11:02:06 AM</td>
+			<td width="85%" class="ObjectDetailsValue">1/18/2023 8:01:21 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">7/27/2023 1:15:58 PM</td>
+			<td class="ObjectDetailsValue">1/18/2023 8:01:21 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">ali.nader</td>
+			<td class="ObjectDetailsValue">rnassar</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,68 +87,39 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{1793805C-5DCF-4ac2-BF14-4186D22B854B}</td>
+			<td class="ObjectDetailsValue">{0587C7C0-138C-44c9-94F7-698C00F78C85}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="./EA2/EA1551.htm">DLS - Apply for a New Driving License - Workflow_Activity </a></td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA1446.htm">Check Student Profile Eligibility</a><br />
-						Decision &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1742" onclick="parent.toggleDiv('detailsDIVLinkFlow1742', 'DetailsImageLinkFlow1742')" />Details:
-							<div id="detailsDIVLinkFlow1742" class="DetailsDiv" >
-							&nbsp;
-							</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">ViewProperties</td>
+				<td width="50%" class="TableRow" valign="top"><modelview><source customSQL="SELECT t_object.ea_guid AS CLASSGUID,t_object.Object_Type AS CLASSTYPE, t_object.Name, t_object.Status, t_object.Author FROM t_object INNER JOIN (t_diagram INNER JOIN t_diagramobjects ON t_diagram.Diagram_ID = t_diagramobjects.Diagram_ID) ON t_object.Object_ID = t_diagramobjects.Object_ID WHERE t_diagram.ea_guid='{09B8C175-7CC3-4913-8C00-99348952390A}' ORDER by t_object.Name"/></modelview></td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1867" onclick="parent.toggleDiv('detailsDIVScenario1867','DetailsImageScenario1867')" />Details:
+						<div id="detailsDIVScenario1867" class="DetailsDiv" >
+						&nbsp;
 						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA1485.htm">Customer Onboarding</a><br />
-						Action &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1743" onclick="parent.toggleDiv('detailsDIVLinkFlow1743', 'DetailsImageLinkFlow1743')" />Details:
-							<div id="detailsDIVLinkFlow1743" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-	</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

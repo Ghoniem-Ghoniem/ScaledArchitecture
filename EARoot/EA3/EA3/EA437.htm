@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Authorization Server</title>
+<title>Business Principles</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Authorization Server", " : "))</script>  : Public   Sequence</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Business Principles", " : "))</script>  : Public  &lt;&lt;Checklist&gt;&gt; Checklist</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">5/23/2023 9:56:53 PM</td>
+			<td width="85%" class="ObjectDetailsValue">12/18/2022 10:23:21 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">6/6/2023 12:23:56 PM</td>
+			<td class="ObjectDetailsValue">6/6/2023 2:45:31 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">tabuamireh</td>
+			<td class="ObjectDetailsValue">ghoniem.ghoniem</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,103 +87,48 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2D6993F3-2C37-4153-BA18-2AA6E3B2AED6}</td>
+			<td class="ObjectDetailsValue">{604D743C-9684-4afd-B062-59C3D691B88B}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA333.htm">Auth Sequence Diagram</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA4/EA637.htm">Enterprise Architecture Principles: BDAT</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
-			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA545.htm">Micro Gateway
-
-(Auth Controller)
-(Pulic Resource)</a></td>
-					<td width="50%" class="TableRow" valign="top">JWT Token: xxxyyyzzz</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage272" onclick="parent.toggleDiv('detailsDIVMessage272', 'DetailsImageMessage272')" />Details:
-							<div id="detailsDIVMessage272" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							Json web token
-
-							</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">Checklist</td>
+				<td width="50%" class="TableRow" valign="top"><Checklist>
+	<Item Text="Primacy of principles" Checked="False"/>
+	<Item Text="Law Compliance " Checked="False"/>
+	<Item Text="Staged Model, with SAFE" Checked="False"/>
+	<Item Text="Transparency with Customer" Checked="False"/>
+	<Item Text="Driven By Digital Transformation Drivers" Checked="False"/>
+	<Item Text="Utilization of modern technologies and approaches" Checked="False"/>
+	<Item Text="Digital First Solutions" Checked="False"/>
+	<Item Text="Omni-Channel Enabling" Checked="False"/>
+</Checklist></td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario299" onclick="parent.toggleDiv('detailsDIVScenario299','DetailsImageScenario299')" />Details:
+						<div id="detailsDIVScenario299" class="DetailsDiv" >
+						&nbsp;
 						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA567.htm">Product Microservice
-(Protected Resource)</a></td>
-					<td width="50%" class="TableRow" valign="top">Return Response to the Resource</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage273" onclick="parent.toggleDiv('detailsDIVMessage273', 'DetailsImageMessage273')" />Details:
-							<div id="detailsDIVMessage273" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="MessagesFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA545.htm">Micro Gateway
-
-(Auth Controller)
-(Pulic Resource)</a></td>
-					<td width="50%" class="TableRow" valign="top">Get Access Token</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage274" onclick="parent.toggleDiv('detailsDIVMessage274', 'DetailsImageMessage274')" />Details:
-							<div id="detailsDIVMessage274" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA567.htm">Product Microservice
-(Protected Resource)</a></td>
-					<td width="50%" class="TableRow" valign="top">Validate JWT</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage275" onclick="parent.toggleDiv('detailsDIVMessage275', 'DetailsImageMessage275')" />Details:
-							<div id="detailsDIVMessage275" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-	</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

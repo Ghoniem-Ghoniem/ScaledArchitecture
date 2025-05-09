@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>VLS Back Office</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA1301.png" usemap="#EA1301" border="0" />
+
+<MAP NAME="EA1301">
+<area shape="rect" coords="1292,411,1322,441" href="EA1324.htm" target="_self">
+<area shape="rect" coords="1135,399,1245,459" href="EA1325.htm" target="_self">
+<area shape="rect" coords="984,399,1094,459" href="EA1326.htm" target="_self">
+<area shape="rect" coords="658,242,768,302" href="EA1320.htm" target="_self">
+<area shape="rect" coords="969,136,1079,196" href="EA1321.htm" target="_self">
+<area shape="rect" coords="653,46,763,106" href="EA1319.htm" target="_self">
+<area shape="rect" coords="685,144,727,186" href="EA1316.htm" target="_self">
+<area shape="rect" coords="387,140,429,182" href="EA1317.htm" target="_self">
+<area shape="rect" coords="1285,154,1315,184" href="EA1313.htm" target="_self">
+<area shape="rect" coords="1162,146,1204,188" href="EA1318.htm" target="_self">
+<area shape="rect" coords="787,135,897,195" href="EA1312.htm" target="_self">
+<area shape="rect" coords="519,131,629,191" href="EA1314.htm" target="_self">
+<area shape="rect" coords="207,127,317,187" href="EA1315.htm" target="_self">
+<area shape="rect" coords="62,135,92,165" href="EA1322.htm" target="_self">
+<area shape="rect" coords="10,356,1382,506" href="EA1306.htm" target="_self">
+<area shape="rect" coords="10,10,1382,356" href="EA1307.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">VLS Back Office : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">8/8/2023 11:17:48 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">8/10/2023 10:35:06 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">firas</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{B84CDB63-B88A-4086-B11F-25E32A35EABD}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

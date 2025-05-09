@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>E-Traffic Core System</title>
+<title>Export To Country</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("E-Traffic Core System", " : "))</script>  : Public   Sequence</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Export To Country", " : "))</script>  : Public   Action</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">9/6/2023 6:53:01 PM</td>
+			<td width="85%" class="ObjectDetailsValue">4/1/2023 1:21:17 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9/6/2023 6:53:22 PM</td>
+			<td class="ObjectDetailsValue">4/12/2023 10:35:47 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">t.rawashdeh</td>
+			<td class="ObjectDetailsValue">Tamer</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,119 +87,40 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{6E18EE3C-8A88-4088-BB1A-56A2BBA5CC13}</td>
+			<td class="ObjectDetailsValue">{90E206CD-5C3B-4c85-A2EE-3C0C08F3735D}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA796.htm">Individual Vehicle Registration</a></td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
-			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
+		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA856.htm">Individual Customer</a></td>
-					<td width="50%" class="TableRow" valign="top">Sync Status</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA3/EA359.htm">{anonymous}</a><br />
+						Decision &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
-		   		<tr>
+				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage436" onclick="parent.toggleDiv('detailsDIVMessage436', 'DetailsImageMessage436')" />Details:
-							<div id="detailsDIVMessage436" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow466" onclick="parent.toggleDiv('detailsDIVLinkFlow466', 'DetailsImageLinkFlow466')" />Details:
+							<div id="detailsDIVLinkFlow466" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA838.htm">E-Traffic Core Employee</a></td>
-					<td width="50%" class="TableRow" valign="top">Plate Status Delivered </td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage437" onclick="parent.toggleDiv('detailsDIVMessage437', 'DetailsImageMessage437')" />Details:
-							<div id="detailsDIVMessage437" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA856.htm">Individual Customer</a></td>
-					<td width="50%" class="TableRow" valign="top">Update Journey Status To Completed</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage438" onclick="parent.toggleDiv('detailsDIVMessage438', 'DetailsImageMessage438')" />Details:
-							<div id="detailsDIVMessage438" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="MessagesFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA856.htm">Individual Customer</a></td>
-					<td width="50%" class="TableRow" valign="top">Sync Vehicle Info</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage439" onclick="parent.toggleDiv('detailsDIVMessage439', 'DetailsImageMessage439')" />Details:
-							<div id="detailsDIVMessage439" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA838.htm">E-Traffic Core Employee</a></td>
-					<td width="50%" class="TableRow" valign="top">Deliver Plate To Customer</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage440" onclick="parent.toggleDiv('detailsDIVMessage440', 'DetailsImageMessage440')" />Details:
-							<div id="detailsDIVMessage440" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA856.htm">Individual Customer</a></td>
-					<td width="50%" class="TableRow" valign="top">Sync Status</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage441" onclick="parent.toggleDiv('detailsDIVMessage441', 'DetailsImageMessage441')" />Details:
-							<div id="detailsDIVMessage441" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
 	</div>
